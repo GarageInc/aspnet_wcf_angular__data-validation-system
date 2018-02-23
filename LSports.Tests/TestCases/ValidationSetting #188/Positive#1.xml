@@ -1,0 +1,225 @@
+<xml>
+    <Event>
+        <EventID>2201148</EventID>
+        <StartDate>2017-02-02T18:00:00.000</StartDate>
+        <SportID Name="Ice Hockey">35232</SportID>
+        <LeagueID Name="SHL">50009135</LeagueID>
+        <LocationID Name="Sweden">83</LocationID>
+        <Status>Finished
+            <DvsHistoryValues>
+                <DvsOld DvsLastUpdate="2017-02-03T08:36:30.471">NSY</DvsOld>
+            </DvsHistoryValues>
+        </Status>
+        <LastUpdate>2017-01-30T17:26:39.235</LastUpdate>
+        <HomeTeam ID="5094" Name="HV 71" />
+        <AwayTeam ID="5420" Name="Rögle BK" />
+        <Stat>
+            <GoalsOnPowerPlay>1:0</GoalsOnPowerPlay>
+            <Penalties>3:3</Penalties>
+        </Stat>
+        <Scorers>
+            <Scorer name="Sundh O." isPenalty="false" teamName="HV 71" time="2" score="2-0" period="1" />
+            <Scorer name="Thornberg M." isPenalty="false" teamName="HV 71" time="9" score="3-0" period="1" />
+            <Scorer name="Borgman A." isPenalty="false" teamName="HV 71" time="1" score="1-0" period="1" />
+            <Scorer name="Thornberg M." isPenalty="false" teamName="HV 71" time="10" score="4-0" period="2" />
+            <Scorer name="Torngren C." isPenalty="false" teamName="HV 71" time="19" score="5-0" period="2" />
+            <Scorer name="Sundh O." isPenalty="false" teamName="HV 71" time="2" score="6-0" period="3" />
+            <Scorer name="Andersson L." isPenalty="false" teamName="HV 71" time="6" score="7-0" period="3" />
+        </Scorers>
+        <Cards />
+        <Outcomes>
+            <Outcome id="223" name="Under/Over 3rd Period - Home Team">
+                <Bookmaker id="46" name="Paf" lastUpdate="2017-02-03T08:26:33.199" isResulting="true">
+                    <Odds id="17370711502201148" bet="Over" startPrice="1.36" currentPrice="1.39" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="71.942" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.36" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="73.529" />
+                            <DvsOld currentPrice="1.4" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="71.429" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="9317396082201148" bet="Over" startPrice="3" currentPrice="1.93" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="51.813" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.85" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="54.054" />
+                            <DvsOld currentPrice="1.96" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="51.02" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="17370711172201148" bet="Over" startPrice="2.9" currentPrice="3" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="33.333" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.9" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="34.483" />
+                            <DvsOld currentPrice="3.05" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="32.787" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="19420088662201148" bet="Under" startPrice="2.95" currentPrice="2.8" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="35.714" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.95" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="33.898" />
+                            <DvsOld LastUpdate="2017-02-02T12:01:00.408" Status="Open" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="6401746282201148" bet="Under" startPrice="1.87" currentPrice="1.8" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="55.556" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.87" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="53.476" />
+                            <DvsOld currentPrice="1.77" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="56.497" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="3961279012201148" bet="Under" startPrice="1.37" currentPrice="1.34" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="74.627" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.37" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="72.993" />
+                            <DvsOld currentPrice="1.33" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="75.188" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <DvsHistoryAttributes>
+                        <DvsOld lastUpdate="2017-02-02T12:01:00.408" isResulting="false" />
+                    </DvsHistoryAttributes>
+                </Bookmaker>
+				<Bookmaker id="462" name="Paf2" lastUpdate="2017-02-03T08:26:33.199" isResulting="true">
+                    <Odds id="17370711502201148" bet="Over" startPrice="1.36" currentPrice="1.39" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="71.942" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.36" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="73.529" />
+                            <DvsOld currentPrice="1.4" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="71.429" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="9317396082201148" bet="Over" startPrice="1.85" currentPrice="1.93" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="51.813" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.85" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="54.054" />
+                            <DvsOld currentPrice="1.96" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="51.02" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="17370711172201148" bet="Over" startPrice="2.9" currentPrice="3" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="33.333" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.9" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="34.483" />
+                            <DvsOld currentPrice="3.05" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="32.787" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="19420088662201148" bet="Under" startPrice="2.95" currentPrice="2.8" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="35.714" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.95" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="33.898" />
+                            <DvsOld LastUpdate="2017-02-02T12:01:00.408" Status="Open" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="6401746282201148" bet="Under" startPrice="1.87" currentPrice="1.8" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="55.556" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.87" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="53.476" />
+                            <DvsOld currentPrice="1.77" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="56.497" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="3961279012201148" bet="Under" startPrice="1.37" currentPrice="1.34" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="74.627" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.37" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="72.993" />
+                            <DvsOld currentPrice="1.33" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="75.188" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <DvsHistoryAttributes>
+                        <DvsOld lastUpdate="2017-02-02T12:01:00.408" isResulting="false" />
+                    </DvsHistoryAttributes>
+                </Bookmaker>
+            </Outcome>			
+            <Outcome id="2232" name="Under/Over 3rd Period - Home Team2">
+                <Bookmaker id="46" name="Paf" lastUpdate="2017-02-03T08:26:33.199" isResulting="true">
+                    <Odds id="17370711502201148" bet="Over" startPrice="1.36" currentPrice="1.39" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="71.942" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.36" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="73.529" />
+                            <DvsOld currentPrice="1.4" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="71.429" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="9317396082201148" bet="Over" startPrice="3" currentPrice="1.93" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="51.813" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.85" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="54.054" />
+                            <DvsOld currentPrice="1.96" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="51.02" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="17370711172201148" bet="Over" startPrice="2.9" currentPrice="3" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="33.333" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.9" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="34.483" />
+                            <DvsOld currentPrice="3.05" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="32.787" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="19420088662201148" bet="Under" startPrice="2.95" currentPrice="2.8" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="35.714" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.95" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="33.898" />
+                            <DvsOld LastUpdate="2017-02-02T12:01:00.408" Status="Open" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="6401746282201148" bet="Under" startPrice="1.87" currentPrice="1.8" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="55.556" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.87" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="53.476" />
+                            <DvsOld currentPrice="1.77" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="56.497" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="3961279012201148" bet="Under" startPrice="1.37" currentPrice="1.34" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="74.627" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.37" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="72.993" />
+                            <DvsOld currentPrice="1.33" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="75.188" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <DvsHistoryAttributes>
+                        <DvsOld lastUpdate="2017-02-02T12:01:00.408" isResulting="false" />
+                    </DvsHistoryAttributes>
+                </Bookmaker>
+				<Bookmaker id="462" name="Paf2" lastUpdate="2017-02-03T08:26:33.199" isResulting="true">
+                    <Odds id="17370711502201148" bet="Over" startPrice="1.36" currentPrice="1.39" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="71.942" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.36" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="73.529" />
+                            <DvsOld currentPrice="1.4" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="71.429" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="9317396082201148" bet="Over" startPrice="1.85" currentPrice="1.93" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="51.813" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.85" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="54.054" />
+                            <DvsOld currentPrice="1.96" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="51.02" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="17370711172201148" bet="Over" startPrice="2.9" currentPrice="3" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="33.333" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.9" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="34.483" />
+                            <DvsOld currentPrice="3.05" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="32.787" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="19420088662201148" bet="Under" startPrice="2.95" currentPrice="2.8" line="0.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="35.714" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.95" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="33.898" />
+                            <DvsOld LastUpdate="2017-02-02T12:01:00.408" Status="Open" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="6401746282201148" bet="Under" startPrice="1.87" currentPrice="1.8" line="1.0" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="55.556" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.87" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="53.476" />
+                            <DvsOld currentPrice="1.77" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="56.497" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="3961279012201148" bet="Under" startPrice="1.37" currentPrice="1.34" line="1.5" BaseLine="" LastUpdate="2017-02-03T08:26:33.199" Status="Suspended" currentPriceProbability="74.627" isWinner="0">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.37" LastUpdate="2017-01-31T22:37:52.451" currentPriceProbability="72.993" />
+                            <DvsOld currentPrice="1.33" LastUpdate="2017-02-02T12:01:00.408" Status="Open" currentPriceProbability="75.188" />
+                            <DvsAdd isWinner="0" DvsLastUpdate="2017-02-03T08:36:30.440" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <DvsHistoryAttributes>
+                        <DvsOld lastUpdate="2017-02-02T12:01:00.408" isResulting="false" />
+                    </DvsHistoryAttributes>
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

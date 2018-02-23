@@ -1,0 +1,37 @@
+<xml>
+    <Event>
+        <EventID>2201139</EventID>
+        <StartDate>2017-01-31T18:00:00.000</StartDate>
+        <SportID Name="Ice Hockey">35232</SportID>
+        <LeagueID Name="SHL">50009135</LeagueID>
+        <LocationID Name="Sweden">83</LocationID>
+        <Status>NSY</Status>
+        <LastUpdate>2017-01-30T17:38:17.827</LastUpdate>
+        <HomeTeam ID="5417" Name="Leksands IF" />
+        <AwayTeam ID="5096" Name="Linköpings HC" />
+        <Scores />
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="342" name="Asian Handicap Including Overtime">
+                <Bookmaker id="134" name="138" lastUpdate="2017-01-31T05:54:11.397" isResulting="false">
+                    <Odds id="9970959362201139" bet="1" startPrice="2.28" currentPrice="2.28" line="0.0 (0-0)" BaseLine="0.0 (0-0)" LastUpdate="2017-01-30T17:24:49.763" Status="Suspended" currentPriceProbability="43.86" />
+                    <Odds id="2164473912201139" bet="1" startPrice="1.79" currentPrice="3.87" line="0.5 (0-0)" BaseLine="0.5 (0-0)" LastUpdate="2017-01-31T05:54:11.397" Status="Open" currentPriceProbability="56.18">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="2.75" LastUpdate="2017-01-30T17:24:49.763" currentPriceProbability="56.818" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="9970621772201139" bet="1" startPrice="1.55" currentPrice="1.55" line="1.0 (0-0)" BaseLine="1.0 (0-0)" LastUpdate="2017-01-30T17:24:49.763" Status="Suspended" currentPriceProbability="64.516" />
+                    <Odds id="9982120312201139" bet="2" startPrice="1.61" currentPrice="1.62" line="0.0 (0-0)" BaseLine="0.0 (0-0)" LastUpdate="2017-01-30T17:24:49.763" Status="Suspended" currentPriceProbability="61.728" />
+                    <Odds id="7361054072201139" bet="2" startPrice="2" currentPrice="5.04" line="-0.5 (0-0)" BaseLine="0.5 (0-0)" LastUpdate="2017-01-31T05:54:11.397" Status="Open" currentPriceProbability="48.544">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="3.06" LastUpdate="2017-01-30T17:24:49.763" currentPriceProbability="49.02" />
+                        </DvsHistoryAttributes>
+                    </Odds>
+                    <Odds id="13606529912201139" bet="2" startPrice="2.42" currentPrice="2.42" line="-1.0 (0-0)" BaseLine="1.0 (0-0)" LastUpdate="2017-01-30T17:24:49.763" Status="Suspended" currentPriceProbability="41.322" />
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

@@ -1,0 +1,75 @@
+<xml>
+    <Event>
+        <EventID>62351749</EventID>
+        <StartDate>2017-02-02T01:32:00.000</StartDate>
+        <SportID Name="Greyhounds">687893</SportID>
+        <LeagueID Name="Warragul">50002962</LeagueID>
+        <LocationID Name="Australia">172</LocationID>
+        <Status>Finished</Status>
+        <LastUpdate>2017-02-01T07:16:30.049</LastUpdate>
+        <HomeTeam ID="50035192" Name="Warragul" />
+        <AwayTeam ID="50035079" Name="Null" />
+        <Race Number="3" Title="Wwr Sawdust (300+ Rank)" Type="" Category="" Distance="400" Surface="" Going="" AgeFrom="0" AgeTo="0" PlaceTerm="3" PlaceOddsFactor="5" />
+        <Participants>
+            <Participant Number="1" Name="Sunset Queen" Age="0" Weight="0" Gender="" Jockey="" Trainer="R Bean" Form="" Silk="" IsRunning="true" />
+            <Participant Number="2" Name="Woodleigh Bond" Age="0" Weight="0" Gender="" Jockey="" Trainer="G Graham" Form="" Silk="" IsRunning="true" />
+            <Participant Number="3" Name="Destini Montana" Age="0" Weight="0" Gender="" Jockey="" Trainer="P Mckenzie" Form="" Silk="" IsRunning="true" />
+            <Participant Number="4" Name="Just Teefa" Age="0" Weight="0" Gender="" Jockey="" Trainer="S Spoljaric" Form="" Silk="" IsRunning="true" />
+            <Participant Number="5" Name="Little Big Chief" Age="0" Weight="0" Gender="" Jockey="" Trainer="C Lawrence" Form="" Silk="" IsRunning="true" />
+            <Participant Number="6" Name="Any Other Union" Age="0" Weight="0" Gender="" Jockey="" Trainer="N Lund" Form="" Silk="" IsRunning="true" />
+            <Participant Number="7" Name="Jakey Missile" Age="0" Weight="0" Gender="" Jockey="" Trainer="K Arvanitis" Form="" Silk="" IsRunning="true" />
+            <Participant Number="8" Name="She's A Beaut" Age="0" Weight="0" Gender="" Jockey="" Trainer="J Carr" Form="" Silk="" IsRunning="true" />
+            <Participant Number="9" Name="Amaroo Lexus" Age="0" Weight="0" Gender="" Jockey="" Trainer="C Schembri" Form="" Silk="" IsRunning="false" />
+            <Participant Number="10" Name="Jen's Magic" Age="0" Weight="0" Gender="" Jockey="" Trainer="G Arvanitis" Form="" Silk="" IsRunning="false" />
+        </Participants>
+        <Scores>
+            <Score period="1P" homeScore="0" awayScore="0" totalScore="0" />
+            <Score period="2P" homeScore="0" awayScore="2" totalScore="2" />
+            <Score period="3P" homeScore="2" awayScore="0" totalScore="2" />
+            <Score period="FT" homeScore="2" awayScore="2" totalScore="4" />
+            <Score period="OT" homeScore="0" awayScore="0" totalScore="0" />
+            <Score period="P" homeScore="0" awayScore="1" totalScore="1" />
+        </Scores>
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="160" name="Race Winner">
+                <Bookmaker id="8" name="Bet365" lastUpdate="2017-02-02T03:34:48.722" isResulting="true">
+                    <Odds id="202619622362351749" bet="Any Other Union" startPrice="10" currentPrice="5" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="6" currentPriceProbability="20" isWinner="1" />
+                    <Odds id="68281856262351749" bet="Destini Montana" startPrice="13" currentPrice="19" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="3" currentPriceProbability="5.263" isWinner="0" />
+                    <Odds id="57226434862351749" bet="Jakey Missile" startPrice="10" currentPrice="13" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="7" currentPriceProbability="7.692" isWinner="0" />
+                    <Odds id="70382836562351749" bet="Just Teefa" startPrice="4.8" currentPrice="7" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="4" currentPriceProbability="14.286" isWinner="0" />
+                    <Odds id="180046630562351749" bet="Little Big Chief" startPrice="5.5" currentPrice="7" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="5" currentPriceProbability="14.286" isWinner="0" />
+                    <Odds id="27600503462351749" bet="She's A Beaut" startPrice="6.5" currentPrice="8" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="8" currentPriceProbability="12.5" isWinner="0" />
+                    <Odds id="110641838262351749" bet="Sunset Queen" startPrice="3.5" currentPrice="3.6" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="1" currentPriceProbability="27.778" isWinner="0" />
+                    <Odds id="127826613162351749" bet="Woodleigh Bond" startPrice="5" currentPrice="5.5" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="2" currentPriceProbability="18.182" isWinner="0" />
+                </Bookmaker>                
+            </Outcome>   
+            <Outcome id="1602" name="Race Winner2">
+                <Bookmaker id="8" name="Bet365" lastUpdate="2017-02-02T03:34:48.722" isResulting="true">
+                    <Odds id="202619622362351749" bet="Any Other Union" startPrice="10" currentPrice="5" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="6" currentPriceProbability="20" isWinner="1" />
+                    <Odds id="68281856262351749" bet="Destini Montana" startPrice="13" currentPrice="19" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="3" currentPriceProbability="5.263" isWinner="0" />
+                    <Odds id="57226434862351749" bet="Jakey Missile" startPrice="10" currentPrice="13" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="7" currentPriceProbability="7.692" isWinner="0" />
+                    <Odds id="70382836562351749" bet="Just Teefa" startPrice="4.8" currentPrice="7" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="4" currentPriceProbability="14.286" isWinner="0" />
+                    <Odds id="180046630562351749" bet="Little Big Chief" startPrice="5.5" currentPrice="7" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="5" currentPriceProbability="14.286" isWinner="0" />
+                    <Odds id="27600503462351749" bet="She's A Beaut" startPrice="6.5" currentPrice="8" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="8" currentPriceProbability="12.5" isWinner="0" />
+                    <Odds id="110641838262351749" bet="Sunset Queen" startPrice="3.5" currentPrice="3.6" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="1" currentPriceProbability="27.778" isWinner="0" />
+                    <Odds id="127826613162351749" bet="Woodleigh Bond" startPrice="5" currentPrice="5.5" line="" LastUpdate="2017-02-02T03:34:48.722" bookieOutcomeID="" Status="Suspended" ProgramNumber="2" currentPriceProbability="18.182" isWinner="0" />
+                </Bookmaker>                
+            </Outcome>          
+        </Outcomes>
+        <RaceResults>
+            <Participant Number="6" Name="Any Other Union" Position="1" Distance="" />
+            <Participant Number="4" Name="Just Teefa" Position="2" Distance="" />
+            <Participant Number="1" Name="Sunset Queen" Position="3" Distance="" />
+            <Participant Number="8" Name="She's A Beaut" Position="4" Distance="" />
+            <Participant Number="2" Name="Woodleigh Bond" Position="" Distance="" />
+            <Participant Number="3" Name="Destini Montana" Position="" Distance="" />
+            <Participant Number="5" Name="Little Big Chief" Position="" Distance="" />
+            <Participant Number="" Name="Jakey Missile" Position="" Distance="" />
+            <Participant Number="9" Name="Amaroo Lexus" Position="" Distance="" />
+            <Participant Number="10" Name="Jen's Magic" Position="" Distance="" />
+        </RaceResults>
+    </Event>
+</xml>

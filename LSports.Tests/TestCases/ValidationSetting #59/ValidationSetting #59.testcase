@@ -1,0 +1,14 @@
+Rule #59
+
+	1) Negative condition #1
+	Result: false
+	
+	2) Negative condition #2
+	Result: false
+	
+	3) Positive condition #1
+	Result: <AwayTeam ID="80514" Name="54323"/>
+	
+	4) Positive condition #2
+	Result: <HomeTeam ID="867" Name="7623"/>
+			<AwayTeam ID="80514" Name="54323"/>

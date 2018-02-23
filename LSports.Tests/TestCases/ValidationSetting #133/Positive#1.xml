@@ -1,0 +1,54 @@
+<xml>
+    <Event>
+        <EventID>62232070</EventID>
+        <StartDate>2017-03-17T09:00:00.000</StartDate>
+        <SportID Name="Horse Racing">35232</SportID>
+        <LeagueID Name="County Hurdle">50011780</LeagueID>
+        <LocationID Name="Great Britain">2</LocationID>
+        <Status>Finished</Status>
+        <LastUpdate>2017-01-15T12:42:55.442</LastUpdate>
+        <HomeTeam ID="50001715" Name="Cheltenham" />
+        <AwayTeam ID="50000002" Name="Null" />
+        <Race Number="1" Title="County Hurdle" Type="Hurdle Race" Category="" Distance="3420" Surface="Turf" Going="" AgeFrom="5" AgeTo="0" PlaceTerm="4" PlaceOddsFactor="4" />
+        <Participants>
+            <Participant Number="1" Name="All Set To Go" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Paul Nicholls" Form="" Silk="" IsRunning="true" />
+            <Participant Number="2" Name="Brain Power" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Nicky Henderson" Form="" Silk="" IsRunning="true" />
+            <Participant Number="3" Name="Campeador" Age="5" Weight="0" Gender="Gelding" Jockey="" Trainer="Gordon Elliott" Form="" Silk="" IsRunning="true" />
+            <Participant Number="4" Name="Ch'tibello" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Dan Skelton" Form="" Silk="" IsRunning="true" />
+            <Participant Number="5" Name="Diego Du Charmil" Age="5" Weight="0" Gender="Gelding" Jockey="" Trainer="Paul Nicholls" Form="" Silk="" IsRunning="true" />
+            <Participant Number="6" Name="Fergall" Age="10" Weight="0" Gender="Gelding" Jockey="" Trainer="Seamus Mullins" Form="" Silk="" IsRunning="true" />
+            <Participant Number="7" Name="Hargam" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Nicky Henderson" Form="" Silk="" IsRunning="true" />
+            <Participant Number="8" Name="Hint Of Mint" Age="8" Weight="0" Gender="Gelding" Jockey="" Trainer="Harry Fry" Form="" Silk="" IsRunning="true" />
+            <Participant Number="9" Name="Instant Karma" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Michael Bell" Form="" Silk="" IsRunning="true" />
+            <Participant Number="10" Name="Ivan Grozny" Age="7" Weight="0" Gender="Gelding" Jockey="" Trainer="Willie P. Mullins" Form="" Silk="" IsRunning="true" />
+            <Participant Number="11" Name="John Constable" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Evan Williams" Form="" Silk="" IsRunning="true" />
+            <Participant Number="12" Name="Modus" Age="7" Weight="0" Gender="Gelding" Jockey="" Trainer="Paul Nicholls" Form="" Silk="" IsRunning="true" />
+            <Participant Number="13" Name="North Hill Harvey" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Dan Skelton" Form="" Silk="" IsRunning="true" />
+            <Participant Number="14" Name="Peace And Co" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Nicky Henderson" Form="" Silk="" IsRunning="true" />
+            <Participant Number="15" Name="Princely Conn" Age="8" Weight="0" Gender="Gelding" Jockey="" Trainer="Thomas Mullins" Form="" Silk="" IsRunning="true" />
+            <Participant Number="16" Name="Starchitect" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="David Pipe" Form="" Silk="" IsRunning="true" />
+            <Participant Number="17" Name="Sternrubin" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Philip Hobbs" Form="" Silk="" IsRunning="true" />
+            <Participant Number="18" Name="Superb Story" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Dan Skelton" Form="" Silk="" IsRunning="true" />
+            <Participant Number="19" Name="Tigris River" Age="6" Weight="0" Gender="Gelding" Jockey="" Trainer="Joseph Patrick O'Brien" Form="" Silk="" IsRunning="true" />
+            <Participant Number="20" Name="Wait For Me" Age="7" Weight="0" Gender="Gelding" Jockey="" Trainer="Philip Hobbs" Form="" Silk="" IsRunning="true" />
+        </Participants>
+        <Scores />
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="1602" name="Race Half">
+                <Bookmaker id="62" name="BetCRIS" lastUpdate="2017-01-26T02:10:14.269" isResulting="true">
+                    <Odds id="2921668462428290" bet="1" startPrice="1.95" currentPrice="1.91" line="-10.5" BaseLine="-10.5" LastUpdate="2017-01-26T02:10:14.269" Status="Open" isWinner="1">
+                        <DvsHistoryAttributes>
+                            <DvsOld currentPrice="1.95" LastUpdate="2017-01-25T08:29:25.229" />
+                            <DvsOld LastUpdate="2017-01-25T11:05:06.441" Status="Open" />
+                            <DvsOld currentPrice="2.95" LastUpdate="2017-01-25T11:05:06.441" />
+                            <DvsAdd isWinner="1" DvsLastUpdate="2017-01-26T02:09:58.347" />
+                        </DvsHistoryAttributes>
+                    </Odds>                    
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

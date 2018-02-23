@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../LSports.Framework.Models/LSports.Framework.Models.csproj",
+      "bin": {
+        "assembly": "../../LSports.Framework.Models/obj/{configuration}/LSports.Framework.Models.dll",
+        "pdb": "../../LSports.Framework.Models/obj/{configuration}/LSports.Framework.Models.pdb"
+      }
+    }
+  }
+}

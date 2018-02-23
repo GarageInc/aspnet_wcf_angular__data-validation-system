@@ -1,0 +1,235 @@
+﻿@section Scripts
+{
+    <script src="~/Scripts/ValidationResults/smartDropdowns.js"></script>
+    <script src="~/Scripts/ArrivalMessages/app.js"></script>
+    <script src="~/Scripts/ArrivalMessages/arrivalMessagesController.js"></script>
+}
+
+@section Body
+{
+    <div ng-app="arrivalMessagesApp">
+
+        <style>
+            .dataTables_filter {
+                text-align: right;
+            }
+
+            .table-toolbar {
+                margin-bottom: 0px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .bordered {
+                border: 3px solid;
+                cursor: pointer;
+            }
+
+            .legendLabel{
+                padding-bottom: 3px;
+            }
+        </style>
+
+        <div class="page-bar" style="margin-bottom: 0px;">
+            <ul class="page-breadcrumb">
+                <li>
+                    <i class="fa fa-home"></i>
+                    <a href="/Product">Products</a>
+                    <i class="fa fa-angle-right"></i>
+                </li>
+                <li>
+                    <a>@Html.ActionLink("Arrival Messages", "ForProduct", "ArrivalMessages", new { id = ViewBag.ProductId }, null)</a>
+                </li>
+            </ul>
+        </div>
+
+        <div ng-controller="arrivalMessagesController">
+
+            @Html.Hidden("productId", (int)ViewBag.ProductId)
+            
+            <div ng-init="refresh()">
+
+                <div class="col-md-12">
+                    
+                    <div class="portlet box">
+
+                        <div class="block-ui" ng-if="isLoading">
+                            <div class="loading-message"><img src="http://cdn.lsports.eu//Content/Metronic/theme/assets/global/img/loading-spinner-grey.gif" align=""><span>&nbsp;&nbsp;LOADING...</span></div>
+                        </div>
+
+                        <div style="margin-left: 10px; float: left;">
+                            <h3>{{product.Name}}</h3>
+                        </div>
+                        
+                        <div style="width:120px; margin: 10px; height: 100px;display: inline-block;float: right;position: absolute;right: 0px; z-index: 1000;" ng-if="!isShowingChart">
+                            <div class="sparkline-chart" style="cursor:pointer;" ng-click="showChart()">
+                                <div class="number" id="show_stats_chart">
+                                </div>
+                                <a class="title">
+                                    Show charts <i class="icon-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div style="width:120px; height: 100px;display: inline-block;float: right;position: absolute;right: 0px; z-index: 1000;" ng-if="isShowingChart">
+                            <div class="sparkline-chart" ng-click="showGrid()" style="cursor:pointer;">
+                                <table class="table table-striped table-bordered table-advance table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>                                                
+                                            </th>
+                                            <th>                                                
+                                            </th>
+                                            <th>
+                                               
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div style="margin-top: 15px; cursor:pointer;">
+                                    <a class="title" >
+                                        Show grid <i class="icon-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="table-toolbar">
+                            <div class="row">
+                                <div class="col-md-12" style="padding-right: 110px;">
+                                    <div >
+                                        <select select2="" ng-options="filter as filter.Name for filter in sports" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small" ng-change="loadNextDropdownsByType(1)"
+                                                ng-model="filterObject.Sport">
+                                            <option value="" selected>Sport..</option>
+                                        </select>
+                                        <select select2="" ng-options="filter as filter.Name for filter in countries" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small" ng-change="loadNextDropdownsByType(2)"
+                                                ng-model="filterObject.Country">
+                                            <option value="" selected>Country..</option>
+                                        </select>
+                                        <select select2="" ng-options="filter as filter.Name for filter in leagues" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small " ng-change="loadNextDropdownsByType(3)"
+                                                ng-model="filterObject.League">
+                                            <option value="" selected>League..</option>
+                                        </select>
+                                        <select select2="" ng-options="filter as filter.Name for filter in events" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small " ng-change="loadNextDropdownsByType(4)"
+                                                ng-model="filterObject.Event">
+                                            <option value="" selected>Event..</option>
+                                        </select>
+                                        <select select2="" ng-options="filter as filter.Name for filter in markets" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small " ng-change="loadNextDropdownsByType(5)"
+                                                ng-model="filterObject.Market">
+                                            <option value="" selected>Market..</option>
+                                        </select>
+                                        <select select2="" ng-options="filter as filter.Name for filter in providers" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small " ng-change="loadNextDropdownsByType(6)"
+                                                ng-model="filterObject.Provider">
+                                            <option value="" selected>Provider..</option>
+                                        </select>
+                                        <select select2="" ng-options="filter as filter.Name for filter in statuses" style="display: inline-block;" ng-disabled="isLoading"
+                                                class="form-control input-small " ng-change="loadNextDropdownsByType(7)"
+                                                ng-model="filterObject.EventStatus">
+                                            <option value="" selected>Event status..</option>
+                                        </select>
+                                        <div style="display: inline-block;" >
+                                            <button class="btn blue" ng-click="filter()" ng-disabled="isLoading">Filter</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row col-md-12" style="margin-bottom: 10px;">
+                                <div style="display: inline-block;;position: relative;">
+                                    <a href="#" id="dateFrom" data-type="datetime" data-original-title="Select Date From" class="editable editable-click"></a>
+                                </div>
+                                <div style="display: inline-block; font-size: 20px;">-</div>
+                                <div style="display: inline-block; position: relative;">
+                                    <a href="#" id="dateTo" data-type="datetime" data-template="D / MMM / YYYY" data-pk="1" data-original-title="Select Date To" class="editable editable-click"></a>
+                                </div>
+                            </div>
+                            
+                            <div class="row col-md-12" ng-show="multips.length && !isShowingChart">
+                                <select ng-model="offset" 
+                                        ng-options="mult as (counter*mult +'-' +  (counter*mult+counter)) for mult in multips"
+                                        ng-change="loadByMultips($event)"
+                                        style="display: inline-block;" 
+                                        class="form-control input-small select2me"
+                                        ></select>
+                            </div>
+                        </div>
+                        <div class="portlet-body">
+                            <div ng-if="!isShowingChart">
+                                <table class="table table-striped table-bordered table-hover dataTable dtr-inline" id="arrival_messages_table" role="grid" aria-describedby="arrival_messages_table_info">
+                                    <thead>
+                                        <tr role="row">
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-sort="descending" aria-label="Name: activate to sort column descending">ID</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Name: activate to sort column ascending">Sports</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Priority: activate to sort column ascending">Countries</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Open Issues: activate to sort column ascending">Leagues</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Total Issues: activate to sort column ascending">Events</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Time Shown: activate to sort column ascending">Markets</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Time Shown: activate to sort column ascending">Providers</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Time Shown: activate to sort column ascending">Bets</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Time Shown: activate to sort column ascending">Open Bets</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" style="width: 5%;" aria-label="Last Time Shown: activate to sort column ascending">Request Time</th>
+                                            <th  tabindex="0" aria-controls="arrival_messages_table" rowspan="1" colspan="1" aria-label="Last Time Shown: activate to sort column ascending">Url</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                            <div ng-if="isShowingChart">
+                                <div id="arrivalMessagesChart" class="chart" style="height: 600px;">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END EXAMPLE TABLE PORTLET-->
+                </div>
+
+
+                <div class="modal fade  in" id="modal_showing_xml" role="dialog" style="position: absolute;top: 0px;">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                <h3 class="modal-title">XML:</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div style="height:350px; overflow: auto; border: 1px solid; margin: 10px; position: relative;" id="xmlTree">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+            </div>
+        </div>
+
+    </div>
+}
+
+
+
+

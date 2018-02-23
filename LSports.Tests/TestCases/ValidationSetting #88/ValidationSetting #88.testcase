@@ -1,0 +1,22 @@
+Rule #50
+
+	1) Negative condition #1
+	Result: false
+	
+	2) Negative condition #2
+	Result: false
+	
+	3) Positive condition #1
+	Result: 
+	
+	4) Positive condition #2
+	Result: <Odds id="4382102812242903" bet="1" startPrice="1.83" currentPrice="1.83" line="-0.5" BaseLine="-0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open"/>
+            <Odds id="15500655032242903" bet="2" startPrice="1.91" currentPrice="1.91" line="0.5" BaseLine="0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open"/>
+
+	5) Positive condition #3
+	Result: <Odds id="4382102812242903" bet="1" startPrice="1.83" currentPrice="1.83" line="-0.5" BaseLine="-0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open"/>
+            <Odds id="15500655032242903" bet="2" startPrice="1.91" currentPrice="1.91" line="0.5" BaseLine="0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open"/>
+
+	6) Positive condition #3
+	Result: <Odds id="4382102812242903" bet="1" startPrice="1.83" currentPrice="1.83" line="-0.5" BaseLine="-0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open"/>
+            <Odds id="15500655032242903" bet="2" startPrice="1.91" currentPrice="1.91" line="0.5" BaseLine="0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open"/>

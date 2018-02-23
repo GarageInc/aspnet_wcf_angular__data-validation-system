@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3C726C6-B91F-45DD-A41B-0D7DE49DB14C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LSports.Tests</RootNamespace>
+    <AssemblyName>LSports.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LSports.DVS.Framework.DataAccess, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LSports.DVS.Framework.DataAccess\obj\Debug\LSports.DVS.Framework.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.9\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Quartz, Version=2.4.1.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Quartz.2.4.1\lib\net40\Quartz.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\XmlValidatorTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.config" />
+    <Content Include="TestCases\id#3\2209637.xml" />
+    <Content Include="TestCases\id#3\2391595.xml" />
+    <Content Include="TestCases\id#3\62234524.xml" />
+    <Content Include="TestCases\id#4\62241095.xml" />
+    <Content Include="TestCases\id#4\62242734.xml" />
+    <Content Include="TestCases\id#4\62242778.xml" />
+    <Content Include="TestCases\id#4\62247175.xml" />
+    <Content Include="TestCases\id#4\62247209.xml" />
+    <Content Include="TestCases\ValidationSetting #29\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #29\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #29\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #30\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #30\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #30\Negative#3.xml" />
+    <Content Include="TestCases\ValidationSetting #30\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #30\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #42\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #42\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #42\Negative#3.xml" />
+    <Content Include="TestCases\ValidationSetting #42\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #42\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #47\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #47\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #47\Negative#3.xml" />
+    <Content Include="TestCases\ValidationSetting #47\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #47\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #49\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #49\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #49\Negative#3.xml" />
+    <Content Include="TestCases\ValidationSetting #49\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #50\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #50\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #50\Negative#3.xml" />
+    <Content Include="TestCases\ValidationSetting #50\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #55\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #55\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #55\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #55\Positive#3.xml" />
+    <Content Include="TestCases\ValidationSetting #57\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #57\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #57\Negative#3.xml" />
+    <Content Include="TestCases\ValidationSetting #57\Negative#4.xml" />
+    <Content Include="TestCases\ValidationSetting #57\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #57\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #59\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #59\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #59\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #59\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #65\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #65\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #65\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #88\Negative#1.xml" />
+    <Content Include="TestCases\ValidationSetting #88\Negative#2.xml" />
+    <Content Include="TestCases\ValidationSetting #88\Positive#1.xml" />
+    <Content Include="TestCases\ValidationSetting #88\Positive#2.xml" />
+    <Content Include="TestCases\ValidationSetting #88\Positive#3.xml" />
+    <Content Include="TestCases\ValidationSetting #88\Positive#4.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="TestCases\ValidationSetting #29\ValidationSetting #29.testcase" />
+    <None Include="TestCases\ValidationSetting #30\ValidationSetting #30.testcase" />
+    <None Include="TestCases\ValidationSetting #42\ValidationSetting #42.testcase" />
+    <None Include="TestCases\ValidationSetting #47\ValidationSetting #47.testcase" />
+    <None Include="TestCases\ValidationSetting #49\ValidationSetting #49.testcase" />
+    <None Include="TestCases\ValidationSetting #50\ValidationSetting #50.testcase" />
+    <None Include="TestCases\ValidationSetting #55\ValidationSetting #55.testcase" />
+    <None Include="TestCases\ValidationSetting #57\ValidationSetting #57.testcase" />
+    <None Include="TestCases\ValidationSetting #59\ValidationSetting #59.testcase" />
+    <None Include="TestCases\ValidationSetting #65\ValidationSetting #65.testcase" />
+    <None Include="TestCases\ValidationSetting #88\ValidationSetting #88.testcase" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LSports.Framework.Models\LSports.Framework.Models.csproj">
+      <Project>{52B989F3-B11E-4DF1-B973-DD40F1B8DBD8}</Project>
+      <Name>LSports.Framework.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSports.SchedulerBusinessLogic\LSports.SchedulerBusinessLogic.csproj">
+      <Project>{E367E402-7AC4-45E3-BD92-05106194FEB1}</Project>
+      <Name>LSports.SchedulerBusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LSports.Web\LSports.Web.csproj">
+      <Project>{3A397A05-632F-464B-86BC-B97DB5F3E138}</Project>
+      <Name>LSports.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

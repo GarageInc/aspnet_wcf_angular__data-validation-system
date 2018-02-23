@@ -1,0 +1,143 @@
+<Event>
+  <EventID>2401067</EventID>
+  <StartDate>2017-02-25T04:15:00.000</StartDate>
+  <SportID Name="Rugby Union">274791</SportID>
+  <LeagueID Name="Super Rugby">2401062</LeagueID>
+  <LocationID Name="International">248</LocationID>
+  <Status>NSY</Status>
+  <LastUpdate>2017-01-15T12:39:55.064</LastUpdate>
+  <HomeTeam ID="351485" Name="Sunwolves" />
+  <AwayTeam ID="116106" Name="Hurricanes" />
+  <Scores />
+  <Stat />
+  <Scorers />
+  <Cards />
+  <Outcomes>
+    <Outcome id="1" name="Asian Handicap">
+      <Bookmaker id="40" name="10Bet" lastUpdate="2017-01-26T03:57:24.221" isResulting="false">
+        <Odds id="4478680082401067" bet="1" startPrice="11.5" currentPrice="11" line="" BaseLine="" LastUpdate="2017-01-26T03:57:24.221" Status="Open">
+          <DvsHistoryAttributes>
+            <DvsOld LastUpdate="2017-01-16T13:15:51.089" Status="Open" />
+            <DvsOld LastUpdate="2017-01-16T17:18:21.412" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-16T17:34:20.607" Status="Open" />
+            <DvsOld LastUpdate="2017-01-17T00:24:37.461" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-17T08:47:13.639" Status="Open" />
+            <DvsOld LastUpdate="2017-01-17T09:01:37.630" Status="Suspended" />
+            <DvsOld currentPrice="11.5" LastUpdate="2017-01-17T11:49:55.845" />
+            <DvsOld currentPrice="10.75" LastUpdate="2017-01-17T13:02:45.359" Status="Open" />
+            <DvsOld LastUpdate="2017-01-18T09:12:51.882" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-19T13:21:18.089" Status="Open" />
+            <DvsOld LastUpdate="2017-01-19T16:19:36.802" Status="Suspended" />
+            <DvsOld currentPrice="11.5" LastUpdate="2017-01-19T19:02:56.987" />
+            <DvsOld LastUpdate="2017-01-19T19:13:32.410" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T00:03:57.013" Status="Suspended" />
+            <DvsOld currentPrice="11.25" LastUpdate="2017-01-20T07:26:10.188" />
+            <DvsOld LastUpdate="2017-01-20T07:27:51.237" Status="Open" />
+            <DvsOld currentPrice="11.5" LastUpdate="2017-01-20T08:25:34.173" />
+            <DvsOld LastUpdate="2017-01-20T16:54:11.536" Status="Suspended" />
+            <DvsOld currentPrice="11.25" LastUpdate="2017-01-20T18:39:06.829" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T21:30:40.729" Status="Suspended" />
+            <DvsOld currentPrice="10.5" LastUpdate="2017-01-21T06:02:50.887" />
+            <DvsOld LastUpdate="2017-01-21T11:51:03.713" Status="Open" />
+            <DvsOld LastUpdate="2017-01-21T11:58:58.854" Status="Suspended" />
+            <DvsOld currentPrice="11.25" LastUpdate="2017-01-21T19:05:02.977" />
+            <DvsOld currentPrice="10.5" LastUpdate="2017-01-22T10:06:45.991" />
+            <DvsOld LastUpdate="2017-01-22T17:33:09.058" Status="Open" />
+            <DvsOld currentPrice="11.25" LastUpdate="2017-01-23T00:28:21.663" Status="Suspended" />
+            <DvsOld currentPrice="10.5" LastUpdate="2017-01-23T04:08:51.737" />
+            <DvsOld currentPrice="11.25" LastUpdate="2017-01-23T15:51:11.200" Status="Open" />
+            <DvsOld LastUpdate="2017-01-24T11:22:15.117" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-24T13:13:38.403" Status="Open" />
+            <DvsOld LastUpdate="2017-01-24T13:35:21.471" Status="Suspended" />
+            <DvsOld currentPrice="10.5" LastUpdate="2017-01-25T10:17:34.175" />
+            <DvsOld LastUpdate="2017-01-25T17:02:14.981" Status="Open" />
+            <DvsOld LastUpdate="2017-01-25T17:20:17.203" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-25T19:40:44.289" Status="Open" />
+            <DvsOld LastUpdate="2017-01-25T20:38:24.243" Status="Suspended" />
+          </DvsHistoryAttributes>
+        </Odds>
+        <Odds id="20139519492401067" bet="2" startPrice="1" currentPrice="1.01" line="" BaseLine="" LastUpdate="2017-01-26T03:57:24.221" Status="Open" currentPriceProbability="20">
+          <DvsHistoryAttributes>
+            <DvsOld currentPrice="1" LastUpdate="2017-02-16T13:15:51.089" Status="Open" />
+            <DvsOld LastUpdate="2017-01-16T17:18:21.412" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-16T17:34:20.607" Status="Open" />
+            <DvsOld currentPrice="1.01" LastUpdate="2017-02-16T18:18:59.912" Status="Suspended" />
+            <DvsOld currentPrice="1" LastUpdate="2017-02-16T19:20:05.351" Status="Open" />
+            <DvsOld currentPrice="1.01" LastUpdate="2017-02-17T00:24:37.461" Status="Suspended" />
+            <DvsOld currentPrice="1" LastUpdate="2017-02-17T08:11:48.678" />
+            <DvsOld LastUpdate="2017-01-17T08:47:13.639" Status="Open" />
+            <DvsOld LastUpdate="2017-01-17T09:01:37.630" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-17T11:51:01.089" Status="Open" />
+            <DvsOld LastUpdate="2017-01-18T09:12:51.882" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-19T15:42:17.656" Status="Open" />
+            <DvsOld LastUpdate="2017-01-19T16:19:36.802" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-19T19:02:56.987" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T00:03:57.013" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-20T07:26:10.188" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T16:54:11.536" Status="Suspended" />
+            <DvsOld currentPrice="1.01" LastUpdate="2017-02-20T18:39:06.829" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T21:30:40.729" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-21T11:51:03.713" Status="Open" />
+            <DvsOld LastUpdate="2017-01-25T20:38:24.243" Status="Suspended" currentPriceProbability="50"/>
+            <DvsOld LastUpdate="2017-01-25T20:38:24.243" Status="Suspended" currentPriceProbability="60"/>
+            <DvsOld LastUpdate="2017-01-21T11:58:58.854" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-24T11:22:15.117" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-24T13:13:38.403" Status="Open" />
+            <DvsOld LastUpdate="2017-01-24T13:35:21.471" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-25T17:02:14.981" Status="Open" />
+            <DvsOld LastUpdate="2017-01-25T17:20:17.203" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-25T19:40:44.289" Status="Open" /> 
+            <DvsOld LastUpdate="2017-01-25T20:38:24.243" Status="Suspended" />
+          </DvsHistoryAttributes>
+        </Odds>
+        <Odds id="7417825972401067" bet="X" startPrice="54.25" currentPrice="44.75" line="" BaseLine="" LastUpdate="2017-01-26T03:57:24.221" Status="Open">
+          <DvsHistoryAttributes>
+            <DvsOld currentPrice="54.25" LastUpdate="2017-01-16T13:15:51.089" Status="Open" />
+            <DvsOld LastUpdate="2017-01-16T17:18:21.412" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-16T17:34:20.607" Status="Open" />
+            <DvsOld currentPrice="50.25" LastUpdate="2017-01-16T18:18:59.912" Status="Suspended" />
+            <DvsOld currentPrice="54.25" LastUpdate="2017-01-16T19:20:05.351" Status="Open" />
+            <DvsOld currentPrice="50.25" LastUpdate="2017-01-17T00:24:37.461" Status="Suspended" />
+            <DvsOld currentPrice="54.25" LastUpdate="2017-01-17T08:11:48.678" />
+            <DvsOld LastUpdate="2017-01-17T08:47:13.639" Status="Open" />
+            <DvsOld LastUpdate="2017-01-17T09:01:37.630" Status="Suspended" />
+            <DvsOld currentPrice="50.25" LastUpdate="2017-01-17T09:02:29.913" />
+            <DvsOld currentPrice="54.25" LastUpdate="2017-01-17T11:49:55.845" />
+            <DvsOld currentPrice="50.25" LastUpdate="2017-01-17T11:51:01.089" />
+            <DvsOld currentPrice="49.75" LastUpdate="2017-01-17T13:02:45.359" Status="Open" />
+            <DvsOld LastUpdate="2017-01-18T09:12:51.882" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-19T15:42:17.656" Status="Open" />
+            <DvsOld LastUpdate="2017-01-19T16:19:36.802" Status="Suspended" />
+            <DvsOld currentPrice="50.25" LastUpdate="2017-01-19T19:02:56.987" />
+            <DvsOld LastUpdate="2017-01-19T19:13:32.410" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T00:03:57.013" Status="Suspended" />
+            <DvsOld currentPrice="48.75" LastUpdate="2017-01-20T07:26:10.188" />
+            <DvsOld LastUpdate="2017-01-20T07:27:51.237" Status="Open" />
+            <DvsOld currentPrice="50.25" LastUpdate="2017-01-20T08:25:34.173" />
+            <DvsOld LastUpdate="2017-01-20T16:54:11.536" Status="Suspended" />
+            <DvsOld currentPrice="48.75" LastUpdate="2017-01-20T18:39:06.829" Status="Open" />
+            <DvsOld LastUpdate="2017-01-20T21:30:40.729" Status="Suspended" />
+            <DvsOld currentPrice="44.75" LastUpdate="2017-01-21T03:33:09.418" />
+            <DvsOld currentPrice="47" LastUpdate="2017-01-21T06:02:50.887" />
+            <DvsOld currentPrice="44.75" LastUpdate="2017-01-21T06:16:52.015" />
+            <DvsOld LastUpdate="2017-01-21T11:51:03.713" Status="Open" />
+            <DvsOld LastUpdate="2017-01-21T11:58:58.854" Status="Suspended" />
+            <DvsOld currentPrice="48.75" LastUpdate="2017-01-21T19:05:02.977" />
+            <DvsOld currentPrice="44.75" LastUpdate="2017-01-22T10:06:45.991" />
+            <DvsOld LastUpdate="2017-01-22T17:33:09.058" Status="Open" />
+            <DvsOld currentPrice="48.75" LastUpdate="2017-01-23T00:28:21.663" Status="Suspended" />
+            <DvsOld currentPrice="47" LastUpdate="2017-01-23T04:08:51.737" />
+            <DvsOld currentPrice="48.75" LastUpdate="2017-01-23T15:51:11.200" Status="Open" />
+            <DvsOld LastUpdate="2017-01-24T11:22:15.117" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-24T13:13:38.403" Status="Open" />
+            <DvsOld LastUpdate="2017-01-24T13:35:21.471" Status="Suspended" />
+            <DvsOld LastUpdate="2017-01-25T17:02:14.981" Status="Open" />
+            <DvsOld LastUpdate="2017-01-25T17:20:17.203" Status="Suspended" />
+            <DvsOld currentPrice="44.75" LastUpdate="2017-01-25T19:40:44.289" Status="Open" />
+            <DvsOld currentPrice="47.5" LastUpdate="2017-01-25T20:38:24.243" Status="Suspended" />
+          </DvsHistoryAttributes>
+        </Odds>
+      </Bookmaker>
+    </Outcome>
+  </Outcomes>
+</Event>

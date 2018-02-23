@@ -1,0 +1,77 @@
+<xml>
+<Event Id="62234524">
+  <Outcomes>
+    <Outcome Id="28" Name="Under/Over Including Overtime">
+      <Odd Bet="Over" Price="1.8" Line="169.5" Status="Suspended" BaseLine="169.5" IsMainLine="False" IsChanged="1"/>
+      <Odd Bet="Under" Price="1.95" Line="169.5" Status="Suspended" BaseLine="169.5" IsMainLine="False" IsChanged="1"/>
+      <Odd Bet="Over" Price="1.81" Line="170.5" Status="Open" BaseLine="170.5" IsMainLine="True" IsChanged="1"/>
+      <Odd Bet="Under" Price="1.93" Line="170.5" Status="Open" BaseLine="170.5" IsMainLine="True" IsChanged="1"/>
+      <Odd Bet="Over" Price="1.95" Line="171.5" Status="Suspended" BaseLine="171.5" IsMainLine="False" IsChanged="1"/>
+      <Odd Bet="Under" Price="1.8" Line="171.5" Status="Suspended" BaseLine="171.5" IsMainLine="False" IsChanged="1"/>
+    </Outcome>
+    <Outcome Id="282" Name="1X2 Halftime">
+      <Odd Bet="1" Price="2.41" Line="" Status="Open" IsChanged="1"/>
+      <Odd Bet="X" Price="10.19" Line="" Status="Open" IsChanged="1"/>
+    </Outcome>
+    <Outcome Id="330" Name="2nd Period Race To">
+      <Odd Bet="1" Price="1.77" Line="15.0" Status="Suspended" BaseLine="15.0" IsMainLine="False" IsChanged="1"/>
+      <Odd Bet="2" Price="2.18" Line="15.0" Status="Suspended" BaseLine="15.0" IsMainLine="False" IsChanged="1"/>
+      <Odd Bet="Neither" Price="23.53" Line="15.0" Status="Suspended" BaseLine="15.0" IsMainLine="False" IsChanged="1"/>
+    </Outcome>
+    <Outcome Id="282" Name="1X2 Halftime">
+      <Odd Bet="2" Price="1.8" Line="" Status="Open" IsChanged="1"/>
+      <Odd Bet="X" Price="11.35" Line="" Status="Open" IsChanged="1"/>
+    </Outcome>
+  </Outcomes>
+  <HomeTeam Id="228888">Germany U20 W W</HomeTeam>
+  <AwayTeam Id="228891">France U20 W</AwayTeam>
+  <Period>2nd Quarter</Period>
+  <CurrentMinute>02:26<DvsHistoryValues><DvsOld DvsLastUpdate="2016-11-25T12:23:03.972">07:14</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:23:28.825">07:10</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:24:23.928">07:07</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:25:38.900">06:31</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:27:38.744">05:28</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:27:53.944">04:53</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:27:58.881">04:52</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:28:38.840">04:45</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:30:09.078">04:05</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:31:29.015">03:20</DvsOld><DvsOld DvsLastUpdate="2016-11-25T12:32:18.907">03:18</DvsOld></DvsHistoryValues></CurrentMinute>
+  <Scores>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="29" AwayScore="31"/>
+    <Score Period="2Q" HomeScore="4" AwayScore="4"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="29" AwayScore="31"/>
+    <Score Period="2Q" HomeScore="4" AwayScore="4"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="30" AwayScore="31"/>
+    <Score Period="2Q" HomeScore="5" AwayScore="4"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="33" AwayScore="31"/>
+    <Score Period="2Q" HomeScore="8" AwayScore="4"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="35" AwayScore="36"/>
+    <Score Period="2Q" HomeScore="10" AwayScore="9"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="35" AwayScore="36"/>
+    <Score Period="2Q" HomeScore="10" AwayScore="9"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="37" AwayScore="36"/>
+    <Score Period="2Q" HomeScore="12" AwayScore="9"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="37" AwayScore="36"/>
+    <Score Period="2Q" HomeScore="12" AwayScore="9"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="37" AwayScore="36"/>
+    <Score Period="2Q" HomeScore="12" AwayScore="9"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="37" AwayScore="38"/>
+    <Score Period="2Q" HomeScore="12" AwayScore="11"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="37" AwayScore="38"/>
+    <Score Period="2Q" HomeScore="12" AwayScore="11"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="40" AwayScore="38"/>
+    <Score Period="2Q" HomeScore="15" AwayScore="11"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="40" AwayScore="38"/>
+    <Score Period="2Q" HomeScore="15" AwayScore="11"/>
+    <Score Period="1Q" HomeScore="25" AwayScore="27"/>
+    <Score Period="CFS" HomeScore="40" AwayScore="43"/>
+    <Score Period="2Q" HomeScore="15" AwayScore="16"/>
+  </Scores>
+  <Statistics/>
+  <StatusDescription>Time-out Home Team</StatusDescription>
+</Event>
+</xml>

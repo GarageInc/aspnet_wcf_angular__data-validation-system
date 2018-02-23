@@ -1,0 +1,20 @@
+Rule #57
+
+	1) Negative condition #1
+	Result: false
+	
+	2) Negative condition #2
+	Result: false
+	
+	3) Negative condition #3
+	Result: false
+	
+	4) Negative condition #4
+	Result: false
+	
+	5) Positive condition #1
+	Result: <Odds id="17430310252370256" bet="Over" startPrice="1" currentPrice="2.625" line="1.5" BaseLine="" LastUpdate="2016-11-18T12:28:34.476" Status="Open" />
+	
+	6) Positive condition #2
+	Result: <Odds id="17430310252370256" bet="Over" startPrice="1" currentPrice="2.625" line="1.5" BaseLine="" LastUpdate="2016-11-18T12:28:34.476" Status="Open" />
+            <Odds id="17430309302370256" bet="Over" startPrice="1" currentPrice="8.5" line="1.9" BaseLine="" LastUpdate="2016-11-18T12:28:34.476" Status="Open" />

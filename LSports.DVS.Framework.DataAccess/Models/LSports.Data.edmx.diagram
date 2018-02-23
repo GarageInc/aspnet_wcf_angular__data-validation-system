@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ac9824b7bde0482da1c80e2d141aee32" Name="Diagram1" ZoomLevel="89">
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_arrivalmessage" Width="1.5" PointX="7.75" PointY="1.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_event" Width="1.5" PointX="7.75" PointY="8.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_eventhistory" Width="1.5" PointX="9.75" PointY="1.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_product" Width="1.5" PointX="0.75" PointY="5.125" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_producttree" Width="1.5" PointX="3" PointY="10.375" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_schedulershistory" Width="1.5" PointX="9.75" PointY="5.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.dvs_selectiontreeitem" Width="1.5" PointX="9.75" PointY="10.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_datatypes" Width="1.5" PointX="11.75" PointY="1.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_operator" Width="1.5" PointX="3" PointY="14" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_parameter" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_priority" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_validationresult" Width="1.5" PointX="11.75" PointY="5.875" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_validationrule" Width="1.5" PointX="5.25" PointY="4.125" />
+        <EntityTypeShape EntityType="gb_dvsstagingModel.val_validationsetting" Width="1.5" PointX="3" PointY="4.5" />
+        <AssociationConnector Association="gb_dvsstagingModel.producttree_to_product_fk" />
+        <AssociationConnector Association="gb_dvsstagingModel.setting_to_product_fk" />
+        <AssociationConnector Association="gb_dvsstagingModel.valrule_to_operator_fk" />
+        <AssociationConnector Association="gb_dvsstagingModel.valrule_to_parameter_fk" />
+        <AssociationConnector Association="gb_dvsstagingModel.valsetting_to_priority_fk" />
+        <AssociationConnector Association="gb_dvsstagingModel.valrule_to_setting_fk" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

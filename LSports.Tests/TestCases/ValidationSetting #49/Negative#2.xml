@@ -1,0 +1,21 @@
+<xml><Event>
+      <EventID>2242903</EventID>
+      <StartDate>2016-11-19T15:00:00.000</StartDate>
+      <SportID Name="Football">6046</SportID>
+      <LeagueID Name="Premiership League">2242805</LeagueID>
+      <LocationID Name="Scotland">240</LocationID>
+      <Status>Finished</Status>
+      <LastUpdate>2016-11-09T11:30:05.170</LastUpdate>
+      <HomeTeam ID="867" Name="St. Johnstone"/>
+      <AwayTeam ID="80514" Name="Ross County"/>
+      <Scores/>
+      <Stat/>
+      <Scorers/>
+      <Cards/>
+      <Outcomes>
+        <Outcome id="4" name="Asian Handicap">
+          <Bookmaker id="81" name="Ladbrokes" lastUpdate="2016-11-09T03:00:31.028" isResulting="false">
+          </Bookmaker>
+        </Outcome>
+      </Outcomes>
+    </Event></xml>

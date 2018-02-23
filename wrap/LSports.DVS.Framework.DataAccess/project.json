@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../LSports.DVS.Framework.DataAccess/LSports.DVS.Framework.DataAccess.csproj",
+      "bin": {
+        "assembly": "../../LSports.DVS.Framework.DataAccess/obj/{configuration}/LSports.DVS.Framework.DataAccess.dll",
+        "pdb": "../../LSports.DVS.Framework.DataAccess/obj/{configuration}/LSports.DVS.Framework.DataAccess.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.1.3",
+        "EntityFramework.MappingAPI": "6.0.0.7",
+        "MySql.Data": "6.9.9",
+        "MySql.Data.Entity": "6.9.9",
+        "LSports.Framework.Models": "1.0.0-*"
+      }
+    }
+  }
+}

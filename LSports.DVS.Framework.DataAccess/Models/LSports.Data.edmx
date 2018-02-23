@@ -1,0 +1,1068 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="gb_dvsstagingModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="dvs_arrivalmessage">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Events" Type="longtext" />
+          <Property Name="Sports" Type="longtext" />
+          <Property Name="Leagues" Type="longtext" />
+          <Property Name="Locations" Type="longtext" />
+          <Property Name="Markets" Type="longtext" />
+          <Property Name="Providers" Type="longtext" />
+          <Property Name="Bets" Type="longtext" />
+          <Property Name="Statuses" Type="longtext" />
+          <Property Name="Url" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="IsProcessed" Type="bit" Nullable="false" />
+          <Property Name="PathToXmlFile" Type="text" />
+          <Property Name="EventsCount" Type="int" />
+          <Property Name="SportsCount" Type="int" />
+          <Property Name="LeaguesCount" Type="int" />
+          <Property Name="LocationsCount" Type="int" />
+          <Property Name="MarketsCount" Type="int" />
+          <Property Name="ProvidersCount" Type="int" />
+          <Property Name="BetsCount" Type="int" />
+          <Property Name="StatusesCount" Type="int" />
+          <Property Name="GroupId" Type="char" MaxLength="32" />
+        </EntityType>
+        <EntityType Name="dvs_event">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EventId" Type="bigint" Nullable="false" />
+          <Property Name="EventName" Type="varchar" MaxLength="100" />
+          <Property Name="StartDate" Type="varchar" MaxLength="100" />
+          <Property Name="SportId" Type="bigint" />
+          <Property Name="SportName" Type="varchar" MaxLength="100" />
+          <Property Name="LeagueId" Type="bigint" />
+          <Property Name="LeagueName" Type="varchar" MaxLength="100" />
+          <Property Name="LocationId" Type="bigint" />
+          <Property Name="LocationName" Type="varchar" MaxLength="100" />
+          <Property Name="Status" Type="varchar" MaxLength="100" />
+          <Property Name="LastUpdate" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HomeTeamId" Type="bigint" />
+          <Property Name="HomeTeamName" Type="varchar" MaxLength="100" />
+          <Property Name="AwayTeamId" Type="bigint" />
+          <Property Name="AwayTeamName" Type="varchar" MaxLength="100" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="MarketId" Type="bigint" />
+          <Property Name="MarketName" Type="varchar" MaxLength="255" />
+          <Property Name="ProviderId" Type="bigint" />
+          <Property Name="ProviderName" Type="varchar" MaxLength="255" />
+          <Property Name="ProductId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dvs_eventhistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EventId" Type="bigint" />
+          <Property Name="XmlText" Type="longtext" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="IsMerged" Type="bit" />
+        </EntityType>
+        <EntityType Name="dvs_product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="GatewayAPI" Type="mediumtext" Nullable="false" />
+          <Property Name="IsPushService" Type="bit" />
+        </EntityType>
+        <EntityType Name="dvs_producttree">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="XmlText" Type="longtext" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="dvs_schedulershistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="StartedOn" Type="timestamp" Precision="0" />
+          <Property Name="FinishedOn" Type="timestamp" Precision="0" />
+          <Property Name="Type" Type="int" Nullable="false" />
+          <Property Name="ProductId" Type="int" />
+          <Property Name="ArrivalMessageId" Type="int" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" Nullable="false" />
+          <Property Name="IsByError" Type="bit" Nullable="false" />
+          <Property Name="ErrorMessage" Type="text" />
+          <Property Name="AdditionalInfo" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="dvs_selectiontreeitem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="20000" />
+          <Property Name="ExternalId" Type="bigint" />
+          <Property Name="ParentId" Type="bigint" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="TypeId" Type="int" />
+          <Property Name="ProductId" Type="int" />
+        </EntityType>
+        <EntityType Name="val_datatypes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="val_operator">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="val_parameter">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="val_priority">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="val_validationresult">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ValidationSettingId" Type="int" Nullable="false" />
+          <Property Name="EventId" Type="bigint" Nullable="false" />
+          <Property Name="EventName" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="SportName" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="LeagueName" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="LocationName" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="Market" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="Provider" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="Status" Type="char" MaxLength="100" Nullable="false" />
+          <Property Name="LastUpdate" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="char" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UpdatedBy" Type="char" MaxLength="255" Nullable="false" />
+          <Property Name="LeagueId" Type="bigint" Nullable="false" />
+          <Property Name="SportId" Type="bigint" Nullable="false" />
+          <Property Name="LocationId" Type="bigint" Nullable="false" />
+          <Property Name="PointsToHighline" Type="varchar" MaxLength="10000" Nullable="false" />
+          <Property Name="HashIndexByEventProduct" Type="char" MaxLength="32" Nullable="false" />
+          <Property Name="HashUniqueIndex" Type="char" MaxLength="32" Nullable="false" />
+          <Property Name="Counter" Type="int" Nullable="false" />
+          <Property Name="HashValidationIndex" Type="char" MaxLength="32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="val_validationrule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ValidationSettingId" Type="int" />
+          <Property Name="PropertyName" Type="varchar" MaxLength="255" />
+          <Property Name="PropertyXPath" Type="varchar" MaxLength="1000" />
+          <Property Name="ParameterId" Type="int" />
+          <Property Name="OperatorId" Type="int" />
+          <Property Name="Value" Type="varchar" MaxLength="255" />
+          <Property Name="ValueXPath" Type="varchar" MaxLength="1000" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="NumberOfChanges" Type="int" />
+          <Property Name="DataTypeId" Type="int" />
+          <Property Name="RuleName" Type="varchar" MaxLength="100" />
+          <Property Name="IsTime" Type="bit" />
+          <Property Name="IsForAllNodes" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="val_validationsetting">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="Description" Type="varchar" MaxLength="255" />
+          <Property Name="ProductId" Type="int" />
+          <Property Name="PriorityId" Type="int" />
+          <Property Name="CreatedOn" Type="timestamp" Precision="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="UpdatedOn" Type="timestamp" Precision="0" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="Expression" Type="varchar" MaxLength="255" />
+          <Property Name="LastValidateAt" Type="timestamp" Precision="0" />
+          <Property Name="IsSlackEnabled" Type="bit" Nullable="false" />
+          <Property Name="SlackChannel" Type="varchar" MaxLength="45" />
+        </EntityType>
+        <Association Name="producttree_to_product_fk">
+          <End Role="dvs_product" Type="Self.dvs_product" Multiplicity="1" />
+          <End Role="dvs_producttree" Type="Self.dvs_producttree" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dvs_product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="dvs_producttree">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="setting_to_product_fk">
+          <End Role="dvs_product" Type="Self.dvs_product" Multiplicity="0..1" />
+          <End Role="val_validationsetting" Type="Self.val_validationsetting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dvs_product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationsetting">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valrule_to_operator_fk">
+          <End Role="val_operator" Type="Self.val_operator" Multiplicity="0..1" />
+          <End Role="val_validationrule" Type="Self.val_validationrule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_operator">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationrule">
+              <PropertyRef Name="OperatorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valrule_to_parameter_fk">
+          <End Role="val_parameter" Type="Self.val_parameter" Multiplicity="0..1" />
+          <End Role="val_validationrule" Type="Self.val_validationrule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_parameter">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationrule">
+              <PropertyRef Name="ParameterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valrule_to_setting_fk">
+          <End Role="val_validationsetting" Type="Self.val_validationsetting" Multiplicity="0..1" />
+          <End Role="val_validationrule" Type="Self.val_validationrule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_validationsetting">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationrule">
+              <PropertyRef Name="ValidationSettingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valsetting_to_priority_fk">
+          <End Role="val_priority" Type="Self.val_priority" Multiplicity="0..1" />
+          <End Role="val_validationsetting" Type="Self.val_validationsetting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_priority">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationsetting">
+              <PropertyRef Name="PriorityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="gb_dvsstagingModelStoreContainer">
+          <EntitySet Name="dvs_arrivalmessage" EntityType="Self.dvs_arrivalmessage" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="dvs_event" EntityType="Self.dvs_event" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="dvs_eventhistory" EntityType="Self.dvs_eventhistory" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="dvs_product" EntityType="Self.dvs_product" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="dvs_producttree" EntityType="Self.dvs_producttree" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="dvs_schedulershistory" EntityType="Self.dvs_schedulershistory" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="dvs_selectiontreeitem" EntityType="Self.dvs_selectiontreeitem" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_datatypes" EntityType="Self.val_datatypes" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_operator" EntityType="Self.val_operator" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_parameter" EntityType="Self.val_parameter" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_priority" EntityType="Self.val_priority" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_validationresult" EntityType="Self.val_validationresult" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_validationrule" EntityType="Self.val_validationrule" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <EntitySet Name="val_validationsetting" EntityType="Self.val_validationsetting" Schema="gb_dvsstagingentities" store:Type="Tables" />
+          <AssociationSet Name="producttree_to_product_fk" Association="Self.producttree_to_product_fk">
+            <End Role="dvs_product" EntitySet="dvs_product" />
+            <End Role="dvs_producttree" EntitySet="dvs_producttree" />
+          </AssociationSet>
+          <AssociationSet Name="setting_to_product_fk" Association="Self.setting_to_product_fk">
+            <End Role="dvs_product" EntitySet="dvs_product" />
+            <End Role="val_validationsetting" EntitySet="val_validationsetting" />
+          </AssociationSet>
+          <AssociationSet Name="valrule_to_operator_fk" Association="Self.valrule_to_operator_fk">
+            <End Role="val_operator" EntitySet="val_operator" />
+            <End Role="val_validationrule" EntitySet="val_validationrule" />
+          </AssociationSet>
+          <AssociationSet Name="valrule_to_parameter_fk" Association="Self.valrule_to_parameter_fk">
+            <End Role="val_parameter" EntitySet="val_parameter" />
+            <End Role="val_validationrule" EntitySet="val_validationrule" />
+          </AssociationSet>
+          <AssociationSet Name="valrule_to_setting_fk" Association="Self.valrule_to_setting_fk">
+            <End Role="val_validationsetting" EntitySet="val_validationsetting" />
+            <End Role="val_validationrule" EntitySet="val_validationrule" />
+          </AssociationSet>
+          <AssociationSet Name="valsetting_to_priority_fk" Association="Self.valsetting_to_priority_fk">
+            <End Role="val_priority" EntitySet="val_priority" />
+            <End Role="val_validationsetting" EntitySet="val_validationsetting" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="gb_dvsstagingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="gb_dvsstagingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="dvs_arrivalmessage" EntityType="gb_dvsstagingModel.dvs_arrivalmessage" />
+          <EntitySet Name="dvs_event" EntityType="gb_dvsstagingModel.dvs_event" />
+          <EntitySet Name="dvs_eventhistory" EntityType="gb_dvsstagingModel.dvs_eventhistory" />
+          <EntitySet Name="dvs_product" EntityType="gb_dvsstagingModel.dvs_product" />
+          <EntitySet Name="dvs_producttree" EntityType="gb_dvsstagingModel.dvs_producttree" />
+          <EntitySet Name="dvs_schedulershistory" EntityType="gb_dvsstagingModel.dvs_schedulershistory" />
+          <EntitySet Name="dvs_selectiontreeitem" EntityType="gb_dvsstagingModel.dvs_selectiontreeitem" />
+          <EntitySet Name="val_datatypes" EntityType="gb_dvsstagingModel.val_datatypes" />
+          <EntitySet Name="val_operator" EntityType="gb_dvsstagingModel.val_operator" />
+          <EntitySet Name="val_parameter" EntityType="gb_dvsstagingModel.val_parameter" />
+          <EntitySet Name="val_priority" EntityType="gb_dvsstagingModel.val_priority" />
+          <EntitySet Name="val_validationresult" EntityType="gb_dvsstagingModel.val_validationresult" />
+          <EntitySet Name="val_validationrule" EntityType="gb_dvsstagingModel.val_validationrule" />
+          <EntitySet Name="val_validationsetting" EntityType="gb_dvsstagingModel.val_validationsetting" />
+          <AssociationSet Name="producttree_to_product_fk" Association="gb_dvsstagingModel.producttree_to_product_fk">
+            <End Role="dvs_product" EntitySet="dvs_product" />
+            <End Role="dvs_producttree" EntitySet="dvs_producttree" />
+          </AssociationSet>
+          <AssociationSet Name="setting_to_product_fk" Association="gb_dvsstagingModel.setting_to_product_fk">
+            <End Role="dvs_product" EntitySet="dvs_product" />
+            <End Role="val_validationsetting" EntitySet="val_validationsetting" />
+          </AssociationSet>
+          <AssociationSet Name="valrule_to_operator_fk" Association="gb_dvsstagingModel.valrule_to_operator_fk">
+            <End Role="val_operator" EntitySet="val_operator" />
+            <End Role="val_validationrule" EntitySet="val_validationrule" />
+          </AssociationSet>
+          <AssociationSet Name="valrule_to_parameter_fk" Association="gb_dvsstagingModel.valrule_to_parameter_fk">
+            <End Role="val_parameter" EntitySet="val_parameter" />
+            <End Role="val_validationrule" EntitySet="val_validationrule" />
+          </AssociationSet>
+          <AssociationSet Name="valsetting_to_priority_fk" Association="gb_dvsstagingModel.valsetting_to_priority_fk">
+            <End Role="val_priority" EntitySet="val_priority" />
+            <End Role="val_validationsetting" EntitySet="val_validationsetting" />
+          </AssociationSet>
+          <AssociationSet Name="valrule_to_setting_fk" Association="gb_dvsstagingModel.valrule_to_setting_fk">
+            <End Role="val_validationsetting" EntitySet="val_validationsetting" />
+            <End Role="val_validationrule" EntitySet="val_validationrule" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="dvs_arrivalmessage">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Events" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Sports" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Leagues" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Locations" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Markets" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Providers" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Bets" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Statuses" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="Url" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="ProductId" Type="Int32" Nullable="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsProcessed" Type="Boolean" Nullable="false" />
+          <Property Name="PathToXmlFile" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="EventsCount" Type="Int32" />
+          <Property Name="SportsCount" Type="Int32" />
+          <Property Name="LeaguesCount" Type="Int32" />
+          <Property Name="LocationsCount" Type="Int32" />
+          <Property Name="MarketsCount" Type="Int32" />
+          <Property Name="ProvidersCount" Type="Int32" />
+          <Property Name="BetsCount" Type="Int32" />
+          <Property Name="StatusesCount" Type="Int32" />
+          <Property Name="GroupId" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="dvs_event">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EventId" Type="Int64" Nullable="false" />
+          <Property Name="EventName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="StartDate" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SportId" Type="Int64" />
+          <Property Name="SportName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LeagueId" Type="Int64" />
+          <Property Name="LeagueName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LocationId" Type="Int64" />
+          <Property Name="LocationName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LastUpdate" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HomeTeamId" Type="Int64" />
+          <Property Name="HomeTeamName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="AwayTeamId" Type="Int64" />
+          <Property Name="AwayTeamName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="MarketId" Type="Int64" />
+          <Property Name="MarketName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ProviderId" Type="Int64" />
+          <Property Name="ProviderName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ProductId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dvs_eventhistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EventId" Type="Int64" />
+          <Property Name="XmlText" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsMerged" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="dvs_product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="GatewayAPI" Type="String" Nullable="false" MaxLength="16777215" FixedLength="false" Unicode="false" />
+          <Property Name="IsPushService" Type="Boolean" />
+          <NavigationProperty Name="dvs_producttree" Relationship="gb_dvsstagingModel.producttree_to_product_fk" FromRole="dvs_product" ToRole="dvs_producttree" />
+          <NavigationProperty Name="val_validationsetting" Relationship="gb_dvsstagingModel.setting_to_product_fk" FromRole="dvs_product" ToRole="val_validationsetting" />
+        </EntityType>
+        <EntityType Name="dvs_producttree">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductId" Type="Int32" Nullable="false" />
+          <Property Name="XmlText" Type="String" MaxLength="1073741823" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="dvs_product" Relationship="gb_dvsstagingModel.producttree_to_product_fk" FromRole="dvs_producttree" ToRole="dvs_product" />
+        </EntityType>
+        <EntityType Name="dvs_schedulershistory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="StartedOn" Type="DateTime" />
+          <Property Name="FinishedOn" Type="DateTime" />
+          <Property Name="Type" Type="Int32" Nullable="false" />
+          <Property Name="ProductId" Type="Int32" />
+          <Property Name="ArrivalMessageId" Type="Int32" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" />
+          <Property Name="IsByError" Type="Boolean" Nullable="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Name="AdditionalInfo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="dvs_selectiontreeitem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="20000" FixedLength="false" Unicode="false" />
+          <Property Name="ExternalId" Type="Int64" />
+          <Property Name="ParentId" Type="Int64" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="TypeId" Type="Int32" />
+          <Property Name="ProductId" Type="Int32" />
+        </EntityType>
+        <EntityType Name="val_datatypes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="val_operator">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="val_validationrule" Relationship="gb_dvsstagingModel.valrule_to_operator_fk" FromRole="val_operator" ToRole="val_validationrule" />
+        </EntityType>
+        <EntityType Name="val_parameter">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="val_validationrule" Relationship="gb_dvsstagingModel.valrule_to_parameter_fk" FromRole="val_parameter" ToRole="val_validationrule" />
+        </EntityType>
+        <EntityType Name="val_priority">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="val_validationsetting" Relationship="gb_dvsstagingModel.valsetting_to_priority_fk" FromRole="val_priority" ToRole="val_validationsetting" />
+        </EntityType>
+        <EntityType Name="val_validationresult">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ValidationSettingId" Type="Int32" Nullable="false" />
+          <Property Name="EventId" Type="Int64" Nullable="false" />
+          <Property Name="EventName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SportName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LeagueName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LocationName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Market" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Provider" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Status" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="LastUpdate" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductId" Type="Int32" Nullable="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UpdatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LeagueId" Type="Int64" Nullable="false" />
+          <Property Name="SportId" Type="Int64" Nullable="false" />
+          <Property Name="LocationId" Type="Int64" Nullable="false" />
+          <Property Name="PointsToHighline" Type="String" Nullable="false" MaxLength="10000" FixedLength="false" Unicode="false" />
+          <Property Name="HashIndexByEventProduct" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="HashUniqueIndex" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="Counter" Type="Int32" Nullable="false" />
+          <Property Name="HashValidationIndex" Type="String" Nullable="false" MaxLength="32" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="val_validationrule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ValidationSettingId" Type="Int32" />
+          <Property Name="PropertyName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="PropertyXPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="ParameterId" Type="Int32" />
+          <Property Name="OperatorId" Type="Int32" />
+          <Property Name="Value" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ValueXPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="NumberOfChanges" Type="Int32" />
+          <Property Name="DataTypeId" Type="Int32" />
+          <Property Name="RuleName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IsTime" Type="Boolean" />
+          <Property Name="IsForAllNodes" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="val_operator" Relationship="gb_dvsstagingModel.valrule_to_operator_fk" FromRole="val_validationrule" ToRole="val_operator" />
+          <NavigationProperty Name="val_parameter" Relationship="gb_dvsstagingModel.valrule_to_parameter_fk" FromRole="val_validationrule" ToRole="val_parameter" />
+          <NavigationProperty Name="val_validationsetting" Relationship="gb_dvsstagingModel.valrule_to_setting_fk" FromRole="val_validationrule" ToRole="val_validationsetting" />
+        </EntityType>
+        <EntityType Name="val_validationsetting">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ProductId" Type="Int32" />
+          <Property Name="PriorityId" Type="Int32" />
+          <Property Name="CreatedOn" Type="DateTime" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <Property Name="UpdatedOn" Type="DateTime" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Expression" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LastValidateAt" Type="DateTime" />
+          <Property Name="IsSlackEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="SlackChannel" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="dvs_product" Relationship="gb_dvsstagingModel.setting_to_product_fk" FromRole="val_validationsetting" ToRole="dvs_product" />
+          <NavigationProperty Name="val_priority" Relationship="gb_dvsstagingModel.valsetting_to_priority_fk" FromRole="val_validationsetting" ToRole="val_priority" />
+          <NavigationProperty Name="val_validationrule" Relationship="gb_dvsstagingModel.valrule_to_setting_fk" FromRole="val_validationsetting" ToRole="val_validationrule" />
+        </EntityType>
+        <Association Name="producttree_to_product_fk">
+          <End Type="gb_dvsstagingModel.dvs_product" Role="dvs_product" Multiplicity="1" />
+          <End Type="gb_dvsstagingModel.dvs_producttree" Role="dvs_producttree" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dvs_product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="dvs_producttree">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="setting_to_product_fk">
+          <End Type="gb_dvsstagingModel.dvs_product" Role="dvs_product" Multiplicity="0..1" />
+          <End Type="gb_dvsstagingModel.val_validationsetting" Role="val_validationsetting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="dvs_product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationsetting">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valrule_to_operator_fk">
+          <End Type="gb_dvsstagingModel.val_operator" Role="val_operator" Multiplicity="0..1" />
+          <End Type="gb_dvsstagingModel.val_validationrule" Role="val_validationrule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_operator">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationrule">
+              <PropertyRef Name="OperatorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valrule_to_parameter_fk">
+          <End Type="gb_dvsstagingModel.val_parameter" Role="val_parameter" Multiplicity="0..1" />
+          <End Type="gb_dvsstagingModel.val_validationrule" Role="val_validationrule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_parameter">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationrule">
+              <PropertyRef Name="ParameterId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valsetting_to_priority_fk">
+          <End Type="gb_dvsstagingModel.val_priority" Role="val_priority" Multiplicity="0..1" />
+          <End Type="gb_dvsstagingModel.val_validationsetting" Role="val_validationsetting" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_priority">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationsetting">
+              <PropertyRef Name="PriorityId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="valrule_to_setting_fk">
+          <End Type="gb_dvsstagingModel.val_validationsetting" Role="val_validationsetting" Multiplicity="0..1" />
+          <End Type="gb_dvsstagingModel.val_validationrule" Role="val_validationrule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="val_validationsetting">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="val_validationrule">
+              <PropertyRef Name="ValidationSettingId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="gb_dvsstagingModelStoreContainer" CdmEntityContainer="gb_dvsstagingEntities">
+          <EntitySetMapping Name="dvs_arrivalmessage">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_arrivalmessage">
+              <MappingFragment StoreEntitySet="dvs_arrivalmessage">
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+                <ScalarProperty Name="StatusesCount" ColumnName="StatusesCount" />
+                <ScalarProperty Name="BetsCount" ColumnName="BetsCount" />
+                <ScalarProperty Name="ProvidersCount" ColumnName="ProvidersCount" />
+                <ScalarProperty Name="MarketsCount" ColumnName="MarketsCount" />
+                <ScalarProperty Name="LocationsCount" ColumnName="LocationsCount" />
+                <ScalarProperty Name="LeaguesCount" ColumnName="LeaguesCount" />
+                <ScalarProperty Name="SportsCount" ColumnName="SportsCount" />
+                <ScalarProperty Name="EventsCount" ColumnName="EventsCount" />
+                <ScalarProperty Name="PathToXmlFile" ColumnName="PathToXmlFile" />
+                <ScalarProperty Name="IsProcessed" ColumnName="IsProcessed" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Url" ColumnName="Url" />
+                <ScalarProperty Name="Statuses" ColumnName="Statuses" />
+                <ScalarProperty Name="Bets" ColumnName="Bets" />
+                <ScalarProperty Name="Providers" ColumnName="Providers" />
+                <ScalarProperty Name="Markets" ColumnName="Markets" />
+                <ScalarProperty Name="Locations" ColumnName="Locations" />
+                <ScalarProperty Name="Leagues" ColumnName="Leagues" />
+                <ScalarProperty Name="Sports" ColumnName="Sports" />
+                <ScalarProperty Name="Events" ColumnName="Events" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dvs_event">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_event">
+              <MappingFragment StoreEntitySet="dvs_event">
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+                <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+                <ScalarProperty Name="MarketName" ColumnName="MarketName" />
+                <ScalarProperty Name="MarketId" ColumnName="MarketId" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="AwayTeamName" ColumnName="AwayTeamName" />
+                <ScalarProperty Name="AwayTeamId" ColumnName="AwayTeamId" />
+                <ScalarProperty Name="HomeTeamName" ColumnName="HomeTeamName" />
+                <ScalarProperty Name="HomeTeamId" ColumnName="HomeTeamId" />
+                <ScalarProperty Name="LastUpdate" ColumnName="LastUpdate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+                <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+                <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+                <ScalarProperty Name="SportName" ColumnName="SportName" />
+                <ScalarProperty Name="SportId" ColumnName="SportId" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EventName" ColumnName="EventName" />
+                <ScalarProperty Name="EventId" ColumnName="EventId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dvs_eventhistory">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_eventhistory">
+              <MappingFragment StoreEntitySet="dvs_eventhistory">
+                <ScalarProperty Name="IsMerged" ColumnName="IsMerged" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="XmlText" ColumnName="XmlText" />
+                <ScalarProperty Name="EventId" ColumnName="EventId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dvs_product">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_product">
+              <MappingFragment StoreEntitySet="dvs_product">
+                <ScalarProperty Name="IsPushService" ColumnName="IsPushService" />
+                <ScalarProperty Name="GatewayAPI" ColumnName="GatewayAPI" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dvs_producttree">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_producttree">
+              <MappingFragment StoreEntitySet="dvs_producttree">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="XmlText" ColumnName="XmlText" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dvs_schedulershistory">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_schedulershistory">
+              <MappingFragment StoreEntitySet="dvs_schedulershistory">
+                <ScalarProperty Name="AdditionalInfo" ColumnName="AdditionalInfo" />
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="IsByError" ColumnName="IsByError" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ArrivalMessageId" ColumnName="ArrivalMessageId" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="FinishedOn" ColumnName="FinishedOn" />
+                <ScalarProperty Name="StartedOn" ColumnName="StartedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dvs_selectiontreeitem">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.dvs_selectiontreeitem">
+              <MappingFragment StoreEntitySet="dvs_selectiontreeitem">
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+                <ScalarProperty Name="ExternalId" ColumnName="ExternalId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_datatypes">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_datatypes">
+              <MappingFragment StoreEntitySet="val_datatypes">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_operator">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_operator">
+              <MappingFragment StoreEntitySet="val_operator">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_parameter">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_parameter">
+              <MappingFragment StoreEntitySet="val_parameter">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_priority">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_priority">
+              <MappingFragment StoreEntitySet="val_priority">
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_validationresult">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_validationresult">
+              <MappingFragment StoreEntitySet="val_validationresult">
+                <ScalarProperty Name="HashValidationIndex" ColumnName="HashValidationIndex" />
+                <ScalarProperty Name="Counter" ColumnName="Counter" />
+                <ScalarProperty Name="HashUniqueIndex" ColumnName="HashUniqueIndex" />
+                <ScalarProperty Name="HashIndexByEventProduct" ColumnName="HashIndexByEventProduct" />
+                <ScalarProperty Name="PointsToHighline" ColumnName="PointsToHighline" />
+                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+                <ScalarProperty Name="SportId" ColumnName="SportId" />
+                <ScalarProperty Name="LeagueId" ColumnName="LeagueId" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="LastUpdate" ColumnName="LastUpdate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Provider" ColumnName="Provider" />
+                <ScalarProperty Name="Market" ColumnName="Market" />
+                <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+                <ScalarProperty Name="LeagueName" ColumnName="LeagueName" />
+                <ScalarProperty Name="SportName" ColumnName="SportName" />
+                <ScalarProperty Name="EventName" ColumnName="EventName" />
+                <ScalarProperty Name="EventId" ColumnName="EventId" />
+                <ScalarProperty Name="ValidationSettingId" ColumnName="ValidationSettingId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_validationrule">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_validationrule">
+              <MappingFragment StoreEntitySet="val_validationrule">
+                <ScalarProperty Name="IsForAllNodes" ColumnName="IsForAllNodes" />
+                <ScalarProperty Name="IsTime" ColumnName="IsTime" />
+                <ScalarProperty Name="RuleName" ColumnName="RuleName" />
+                <ScalarProperty Name="DataTypeId" ColumnName="DataTypeId" />
+                <ScalarProperty Name="NumberOfChanges" ColumnName="NumberOfChanges" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="ValueXPath" ColumnName="ValueXPath" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+                <ScalarProperty Name="ParameterId" ColumnName="ParameterId" />
+                <ScalarProperty Name="PropertyXPath" ColumnName="PropertyXPath" />
+                <ScalarProperty Name="PropertyName" ColumnName="PropertyName" />
+                <ScalarProperty Name="ValidationSettingId" ColumnName="ValidationSettingId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="val_validationsetting">
+            <EntityTypeMapping TypeName="gb_dvsstagingModel.val_validationsetting">
+              <MappingFragment StoreEntitySet="val_validationsetting">
+                <ScalarProperty Name="SlackChannel" ColumnName="SlackChannel" />
+                <ScalarProperty Name="IsSlackEnabled" ColumnName="IsSlackEnabled" />
+                <ScalarProperty Name="LastValidateAt" ColumnName="LastValidateAt" />
+                <ScalarProperty Name="Expression" ColumnName="Expression" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+                <ScalarProperty Name="PriorityId" ColumnName="PriorityId" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

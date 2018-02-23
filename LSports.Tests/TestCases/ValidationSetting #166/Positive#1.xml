@@ -1,0 +1,25 @@
+<xml>
+    <Event>
+        <EventID>2254411</EventID>
+        <StartDate>2017-02-02T19:00:00.000</StartDate>
+        <SportID Name="HorceRacing">687888</SportID>
+        <LeagueID Name="Euroleague - Regular Season">2252049</LeagueID>
+        <LocationID Name="Great Britain">2</LocationID>
+        <Status>Cancelled</Status>
+        <LastUpdate>2017-01-30T07:06:01.426</LastUpdate>
+        <HomeTeam ID="135575" Name="Brose Baskets" />
+        <AwayTeam ID="80420" Name="Maccabi Tel Aviv" />
+        <Scores />
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="28" name="Under/Over Including Overtime Period">
+                <Bookmaker id="51" name="Mybet" lastUpdate="2017-01-30T17:24:43.638" isResulting="false">
+                    <Odds id="18105020972254411" bet="Over" startPrice="1.85" currentPrice="1.85" line="164.5" BaseLine="" LastUpdate="2017-01-30T17:24:43.638" Status="Open" currentPriceProbability="54.054" />
+                    <Odds id="1274609692254411" bet="Under" startPrice="1.85" currentPrice="1.85" line="164.5" BaseLine="" LastUpdate="2017-01-30T17:24:43.638" Status="Open" currentPriceProbability="54.054" />
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

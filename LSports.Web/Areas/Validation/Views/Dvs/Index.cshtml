@@ -1,0 +1,32 @@
+﻿
+@section Scripts
+{
+}
+
+@section Body
+{
+    <div>
+
+        <div style="padding: 10px; border: 1px solid;">
+            <h2>Please, select file for uploading</h2>
+
+            <form id="formId" runat="server" enctype="multipart/form-data" action="/Dvs/Upload" method="post">
+                <input name="file" type="file" style="display:inline-block; padding:10px;" />
+                <input name="productId" value="1" placeholder="productId" style="display:inline-block; padding:10px;"/>
+                <button class="btn btn-file" type="submit" style="display:inline-block; padding:10px;">Upload</button>
+            </form>
+        </div>
+
+        <div style="padding: 10px; border: 1px solid; margin-top:30px;">
+            <input type="button" class="btn btn-success" value ="1. Run downloader"onclick="location.href='@Url.Action("RunDownloader", "Dvs")'">
+            <input type="button" class="btn btn-success" value="2.1 Run events creator" onclick="location.href='@Url.Action("RunEventsCreator", "Dvs")'" />
+            <input type="button" class="btn btn-success" value="2.2 Run events creator with merger" onclick="location.href='@Url.Action("RunEventsCreatorWithMerger", "Dvs")'"/>
+            <input type="button" class="btn btn-success" value="3. Run merger" onclick="location.href='@Url.Action("RunMerger", "Dvs")'" />
+            <input type="button" class="btn btn-success" value="4. Run validator" onclick="location.href='@Url.Action("RunValidator", "Dvs")'" />
+        </div>
+    </div>
+}
+
+
+
+

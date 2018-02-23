@@ -1,0 +1,82 @@
+<xml>
+    <Event>
+        <EventID>2316696</EventID>
+        <StartDate>2017-02-05T11:00:00.000</StartDate>
+        <SportID Name="Basketball">48242</SportID>
+        <LeagueID Name="VTB United League">2315214</LeagueID>
+        <LocationID Name="Russia">79</LocationID>
+        <Status>NSY</Status>
+        <LastUpdate>2017-02-03T09:40:44.951</LastUpdate>
+        <HomeTeam ID="217119" Name="BC Tsmoki-Minsk" />
+        <AwayTeam ID="138248" Name="Unics" />
+        <Scores />
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="1" name="1X2">
+                <Bookmaker id="145" name="1XBet" lastUpdate="2017-02-03T09:40:44.951" isResulting="false">
+                    <Odds id="3959914272316696" bet="1" startPrice="8.8" currentPrice="8.8" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.951" Status="Open" currentPriceProbability="11.364" />
+                    <Odds id="3959914262316696" bet="2" startPrice="1.08" currentPrice="1.08" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.951" Status="Open" currentPriceProbability="92.593" />
+                    <Odds id="3959914042316696" bet="X" startPrice="20" currentPrice="20" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.951" Status="Open" currentPriceProbability="5" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="28" name="Under/Over Including Overtime">
+                <Bookmaker id="74" name="MarathonBet" lastUpdate="2017-02-03T07:26:56.967" isResulting="false">
+                    <Odds id="9698254662316696" bet="Over" startPrice="1.99" currentPrice="1.99" line="160.5" BaseLine="" LastUpdate="2017-02-03T07:26:24.080" Status="Open" currentPriceProbability="50.251" />
+                    <Odds id="12521504682316696" bet="Over" startPrice="1.96" currentPrice="1.99" line="162.5" BaseLine="" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="50.251" />
+                    <Odds id="1994283522316696" bet="Under" startPrice="1.93" currentPrice="1.93" line="160.5" BaseLine="" LastUpdate="2017-02-03T07:26:24.080" Status="Open" currentPriceProbability="51.813" />
+                    <Odds id="1994282862316696" bet="Under" startPrice="1.96" currentPrice="1.93" line="162.5" BaseLine="" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="51.813" />
+                </Bookmaker>
+                <Bookmaker id="145" name="1XBet" lastUpdate="2017-02-03T09:40:44.904" isResulting="false">
+                    <Odds id="2223466972316696" bet="Over" startPrice="1.99" currentPrice="1.99" line="160.5" BaseLine="" LastUpdate="2017-02-03T09:40:44.904" Status="Open" currentPriceProbability="50.251" />
+                    <Odds id="2223467632316696" bet="Over" startPrice="1.96" currentPrice="1.99" line="162.5" BaseLine="" LastUpdate="2017-02-03T07:41:19.123" Status="Suspended" currentPriceProbability="50.251" />
+                    <Odds id="20534617732316696" bet="Under" startPrice="1.93" currentPrice="1.93" line="160.5" BaseLine="" LastUpdate="2017-02-03T09:40:44.904" Status="Open" currentPriceProbability="51.813" />
+                    <Odds id="17711367712316696" bet="Under" startPrice="1.96" currentPrice="1.93" line="162.5" BaseLine="" LastUpdate="2017-02-03T07:41:19.123" Status="Suspended" currentPriceProbability="51.813" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="51" name="Odd/Even Including Overtime">
+                <Bookmaker id="145" name="1XBet" lastUpdate="2017-02-03T09:40:44.935" isResulting="false">
+                    <Odds id="19723016652316696" bet="Even" startPrice="1.95" currentPrice="1.95" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.935" Status="Open" currentPriceProbability="51.282" />
+                    <Odds id="18128724102316696" bet="Odd" startPrice="1.95" currentPrice="1.95" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.935" Status="Open" currentPriceProbability="51.282" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="53" name="Asian Handicap Halftime">
+                <Bookmaker id="74" name="MarathonBet" lastUpdate="2017-02-03T07:26:56.967" isResulting="false">
+                    <Odds id="21450753242316696" bet="1" startPrice="1.92" currentPrice="1.92" line="9.0 (0-0)" BaseLine="9.0 (0-0)" LastUpdate="2017-02-03T07:26:24.111" Status="Open" currentPriceProbability="52.083" />
+                    <Odds id="11215970812316696" bet="1" startPrice="1.88" currentPrice="1.88" line="9.5 (0-0)" BaseLine="9.5 (0-0)" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="53.191" />
+                    <Odds id="3328624362316696" bet="2" startPrice="1.88" currentPrice="1.88" line="-9.0 (0-0)" BaseLine="9.0 (0-0)" LastUpdate="2017-02-03T07:26:24.111" Status="Open" currentPriceProbability="53.191" />
+                    <Odds id="17843630892316696" bet="2" startPrice="1.92" currentPrice="1.92" line="-9.5 (0-0)" BaseLine="9.5 (0-0)" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="52.083" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="77" name="Under/Over Halftime">
+                <Bookmaker id="74" name="MarathonBet" lastUpdate="2017-02-03T07:26:56.967" isResulting="false">
+                    <Odds id="4590737432316696" bet="Over" startPrice="1.96" currentPrice="1.96" line="80.5" BaseLine="" LastUpdate="2017-02-03T07:26:24.111" Status="Open" currentPriceProbability="51.02" />
+                    <Odds id="4590736482316696" bet="Over" startPrice="1.94" currentPrice="1.96" line="81.5" BaseLine="" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="51.02" />
+                    <Odds id="8610353892316696" bet="Under" startPrice="1.85" currentPrice="1.85" line="80.5" BaseLine="" LastUpdate="2017-02-03T07:26:24.111" Status="Open" currentPriceProbability="54.054" />
+                    <Odds id="10021978902316696" bet="Under" startPrice="1.86" currentPrice="1.85" line="81.5" BaseLine="" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="54.054" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="226" name="12 Including Overtime">
+                <Bookmaker id="145" name="1XBet" lastUpdate="2017-02-03T09:40:44.873" isResulting="false">
+                    <Odds id="7282414582316696" bet="1" startPrice="12.5" currentPrice="12.5" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.873" Status="Open" currentPriceProbability="8" />
+                    <Odds id="7282414552316696" bet="2" startPrice="1.07" currentPrice="1.07" line="" BaseLine="" LastUpdate="2017-02-03T09:40:44.873" Status="Open" currentPriceProbability="93.458" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="342" name="Asian Handicap Including Overtime">
+                <Bookmaker id="74" name="MarathonBet" lastUpdate="2017-02-03T07:26:56.967" isResulting="false">
+                    <Odds id="3494166092316696" bet="1" startPrice="1.96" currentPrice="1.96" line="16.0 (0-0)" BaseLine="16.0 (0-0)" LastUpdate="2017-02-03T07:26:24.174" Status="Open" currentPriceProbability="51.02" />
+                    <Odds id="12692157062316696" bet="1" startPrice="1.96" currentPrice="1.96" line="16.5 (0-0)" BaseLine="16.5 (0-0)" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="51.02" />
+                    <Odds id="13673643132316696" bet="2" startPrice="1.96" currentPrice="1.96" line="-16.0 (0-0)" BaseLine="16.0 (0-0)" LastUpdate="2017-02-03T07:26:24.174" Status="Open" currentPriceProbability="51.02" />
+                    <Odds id="1935372362316696" bet="2" startPrice="1.96" currentPrice="1.96" line="-16.5 (0-0)" BaseLine="16.5 (0-0)" LastUpdate="2017-02-03T07:26:56.967" Status="Suspended" currentPriceProbability="51.02" />
+                </Bookmaker>
+                <Bookmaker id="145" name="1XBet" lastUpdate="2017-02-03T09:40:44.951" isResulting="false">
+                    <Odds id="2645274062316696" bet="1" startPrice="1.97" currentPrice="1.97" line="16.0 (0-0)" BaseLine="16.0 (0-0)" LastUpdate="2017-02-03T09:40:44.951" Status="Open" currentPriceProbability="50.761" />
+                    <Odds id="7754784052316696" bet="1" startPrice="1.97" currentPrice="1.97" line="16.5 (0-0)" BaseLine="16.5 (0-0)" LastUpdate="2017-02-03T07:35:14.852" Status="Suspended" currentPriceProbability="50.761" />
+                    <Odds id="8082324982316696" bet="2" startPrice="1.97" currentPrice="1.97" line="-16.0 (0-0)" BaseLine="16.0 (0-0)" LastUpdate="2017-02-03T09:40:44.951" Status="Open" currentPriceProbability="50.761" />
+                    <Odds id="11247870872316696" bet="2" startPrice="1.97" currentPrice="1.97" line="-16.5 (0-0)" BaseLine="16.5 (0-0)" LastUpdate="2017-02-03T07:35:14.852" Status="Suspended" currentPriceProbability="50.761" />
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

@@ -1,0 +1,61 @@
+<xml>
+  <Header>
+    <Status>000</Status>
+    <Description>OK</Description>
+    <Timestamp>1480665683</Timestamp>
+    <clientsTimestamp>1480665662</clientsTimestamp>
+  </Header>
+  <Event>
+    <EventID>62259986</EventID>
+    <StartDate>2016-12-01T19:00:00.000</StartDate>
+    <SportID Name="Horse Racing">687888</SportID>
+    <LeagueID Name="Chile">50001546</LeagueID>
+    <LocationID Name="Chile">195</LocationID>
+    <Status>Finished</Status>
+    <LastUpdate>2016-12-01T10:07:07.162</LastUpdate>
+    <HomeTeam ID="50004276" Name="Chile" />
+    <AwayTeam ID="50000002" Name="Null" />
+    <Race Number="4" Title="Race 4" Type="Flat Race" Category="" Distance="1005" Surface="Sand" Going="" AgeFrom="3" AgeTo="0" PlaceTerm="3" PlaceOddsFactor="5" />
+    <Participants>
+      <Participant Number="1" Name="La Tombola" Age="5" Weight="59.8" Gender="Mare" Jockey="Rodrigo Cortes" Trainer="Isaac Michea" Form="1 - 10 - 11 - 12 - 3" Silk="" IsRunning="true" />
+      <Participant Number="2" Name="Ella Me Levanto" Age="4" Weight="55.7" Gender="Mare" Jockey="Cristian Alegria" Trainer="Mario Apablaza Gavilan" Form="12 - 9 - 2 - 12 - 11" Silk="" IsRunning="true" />
+      <Participant Number="3" Name="Incredula" Age="4" Weight="55.7" Gender="Mare" Jockey="Rodolfo Fuenzalida Garcia" Trainer="Juan Pichara Jadue" Form="7 - 4 - 4 - 9 - 4" Silk="" IsRunning="true" />
+      <Participant Number="4" Name="El Aceitero" Age="4" Weight="55.7" Gender="Colt" Jockey="Freddy Inostroza" Trainer="Avelino Parra Diaz" Form="10 - 3 - 2 - 4 - 4" Silk="" IsRunning="true" />
+      <Participant Number="5" Name="Rito" Age="5" Weight="55.7" Gender="Colt" Jockey="Joaquin Herrera Olivares" Trainer="Armando Lab" Form="8 - 8 - 11 - 10 - 7" Silk="" IsRunning="true" />
+      <Participant Number="6" Name="Greek Fire" Age="6" Weight="55.7" Gender="Mare" Jockey="Piero Reyes Podesta" Trainer="Osvaldo Jara" Form="6 - 9 - 10 - 9 - 11" Silk="" IsRunning="true" />
+      <Participant Number="7" Name="Gran Ciudad" Age="6" Weight="55.7" Gender="Mare" Jockey="Ariel Zuniga" Trainer="Rodrigo Pulgar" Form="4 - 8 - 5 - 6 - 4" Silk="" IsRunning="true" />
+      <Participant Number="8" Name="Primera Cita" Age="5" Weight="55.7" Gender="Mare" Jockey="Gerson Inostroza Palma" Trainer="Juan Aravena Martinez" Form="4 - 9 - 10 - 8 - 12" Silk="" IsRunning="true" />
+      <Participant Number="9" Name="Gran Willy" Age="4" Weight="55.7" Gender="Colt" Jockey="Victor Cifuentes" Trainer="Avelino Parra Diaz" Form="9 - 15 - 9 - 12 - 14" Silk="" IsRunning="true" />
+      <Participant Number="10" Name="Il Pagliacci" Age="7" Weight="55.7" Gender="Colt" Jockey="Jose Rodriguez Sepulveda" Trainer="Luis Munoz Salinas" Form="6 - 10 - 7 - 13 - 7" Silk="" IsRunning="true" />
+      <Participant Number="11" Name="Estoynatoique" Age="5" Weight="55.7" Gender="Gelding" Jockey="Gerard Rodriguez" Trainer="Rafael Quiroz" Form="8 - 8 - 4 - 4 - 9" Silk="" IsRunning="false" />
+    </Participants>
+    <Scores />
+    <Stat />
+    <Scorers />
+    <Cards />
+    <Outcomes>
+      <Outcome id="297" name="SP">
+        <Bookmaker id="94" name="RaceBets" lastUpdate="2016-12-01T19:17:30.402" isResulting="true">
+          <Odds id="20037274562259986" bet="El Aceitero" startPrice="9" currentPrice="8.1" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="4" isWinner="1" />
+          <Odds id="210628077162259986" bet="Ella Me Levanto" startPrice="16" currentPrice="42.5" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="2" isWinner="0" />
+          <Odds id="163905090862259986" bet="Estoynatoique" startPrice="11" currentPrice="11" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="11" isWinner="0" />
+          <Odds id="202557750262259986" bet="Gran Ciudad" startPrice="6" currentPrice="9.1" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="7" isWinner="0" />
+          <Odds id="2225198562259986" bet="Gran Willy" startPrice="16" currentPrice="31.5" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="9" isWinner="0" />
+          <Odds id="204830160662259986" bet="Greek Fire" startPrice="16" currentPrice="20.8" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="6" isWinner="0" />
+          <Odds id="90306988862259986" bet="Il Pagliacci" startPrice="13" currentPrice="27.2" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="10" isWinner="0" />
+          <Odds id="183843931562259986" bet="Incredula" startPrice="21" currentPrice="2.3" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="3" isWinner="0" />
+          <Odds id="6124220562259986" bet="La Tombola" startPrice="3" currentPrice="4.8" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="1" isWinner="0" />
+          <Odds id="195681757162259986" bet="Primera Cita" startPrice="5" currentPrice="5" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="8" isWinner="0" />
+          <Odds id="176086423862259986" bet="Rito" startPrice="16" currentPrice="65.1" line="" LastUpdate="2016-12-01T19:17:30.402" bookieOutcomeID="" Status="Suspended" ProgramNumber="5" isWinner="0" />
+        </Bookmaker>
+      </Outcome>
+    </Outcomes>
+    <RaceResults>
+      <Participant Number="4" Name="El Aceitero" Position="a" Distance="" />
+      <Participant Number="3" Name="Incredula" Position="b" Distance="" />
+      <Participant Number="6" Name="Greek Fire" Position="c" Distance="" />
+      <Participant Number="1" Name="La Tombola" Position="d" Distance="" />
+      <Participant Number="2" Name="Ella Me Levanto" Position="a" Distance="" />
+    </RaceResults>
+  </Event>
+</xml>

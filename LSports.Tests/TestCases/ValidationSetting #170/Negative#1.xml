@@ -1,0 +1,35 @@
+<xml>
+    <Event>
+        <EventID>2436026</EventID>
+        <StartDate>2017-02-05T13:15:00.000</StartDate>
+        <SportID Name="Football">6046</SportID>
+        <LeagueID Name="Türkiye Kupasi - 1/8 Finals">2436018</LeagueID>
+        <LocationID Name="Turkey">103</LocationID>
+        <Status>NSY</Status>
+        <LastUpdate>2017-02-01T15:58:43.689</LastUpdate>
+        <HomeTeam ID="133902" Name="Kasimpasa" />
+        <AwayTeam ID="92577" Name="Osmanlispor" />
+        <Scores />
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="2" name="Under/Over">
+                <Bookmaker id="59" name="BetGun" lastUpdate="2017-02-04T15:32:26.793" isResulting="false">
+                    <Odds id="909635772436026" bet="Over" startPrice="1.28" currentPrice="1.28" line="1.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="78.125" />
+                    <Odds id="909634782436026" bet="Over" startPrice="1.95" currentPrice="1.95" line="2.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="51.282" />
+                    <Odds id="909635112436026" bet="Over" startPrice="3.4" currentPrice="3.4" line="3.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="29.412" />
+                    <Odds id="909636682436026" bet="Over" startPrice="6.25" currentPrice="6.25" line="4.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="16" />
+                    <Odds id="533197592436026" bet="Over" startPrice="2.45" currentPrice="2.43" line="Kasimpasa:1,5" BaseLine="" LastUpdate="2017-02-04T15:32:26.793" Status="Open" currentPriceProbability="41.152" />
+                    <Odds id="6475701132436026" bet="Over" startPrice="2.45" currentPrice="2.43" line="Osmanlispor Fk:1,5" BaseLine="" LastUpdate="2017-02-04T15:32:26.793" Status="Open" currentPriceProbability="41.152" />
+                    <Odds id="13689458132436026" bet="Under" startPrice="3.4" currentPrice="3.4" line="1.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="29.412" />
+                    <Odds id="15101083142436026" bet="Under" startPrice="1.8" currentPrice="1.8" line="2.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="55.556" />
+                    <Odds id="16512708152436026" bet="Under" startPrice="1.28" currentPrice="1.28" line="3.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="78.125" />
+                    <Odds id="3069029482436026" bet="Under" startPrice="1.1" currentPrice="1.1" line="4.5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="90.909" />
+                    <Odds id="4037477092436026" bet="Under" startPrice="1.48" currentPrice="1.48" line="Kasimpasa:1,5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="67.568" />
+                    <Odds id="11013226332436026" bet="Under" startPrice="1.48" currentPrice="1.48" line="Osmanlispor Fk:1,5" BaseLine="" LastUpdate="2017-02-04T13:35:08.668" Status="Open" currentPriceProbability="67.568" />
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

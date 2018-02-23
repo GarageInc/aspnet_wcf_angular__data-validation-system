@@ -1,0 +1,119 @@
+<xml>
+    <Event>
+        <EventID>2239081</EventID>
+        <StartDate>2017-06-28T08:40:01.040</StartDate>
+        <SportID Name="Ice Hockey">35232</SportID>
+        <LeagueID Name="NHL">2239081</LeagueID>
+        <LocationID Name="United States">4</LocationID>
+        <Status>NSY</Status>
+        <LastUpdate>2017-01-30T17:25:10.732</LastUpdate>
+        <HomeTeam ID="-1" Name="Null" />
+        <AwayTeam ID="-1" Name="Null" />
+        <Scores />
+        <Stat />
+        <Scorers />
+        <Cards />
+        <Outcomes>
+            <Outcome id="274" name="Outright Winner">
+                <Bookmaker id="8" name="Bet365" lastUpdate="2017-02-02T13:24:59.357" isResulting="false">
+                    <Odds id="15196785512239081" bet="Anaheim Ducks" startPrice="17" currentPrice="21" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="4.762" />
+                    <Odds id="1582397982239081" bet="Arizona Coyotes" startPrice="41" currentPrice="2501" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.04" />
+                    <Odds id="5557060662239081" bet="Boston Bruins" startPrice="26" currentPrice="41" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.439" />
+                    <Odds id="16776139852239081" bet="Buffalo Sabres" startPrice="41" currentPrice="76" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.316" />
+                    <Odds id="20087219612239081" bet="Calgary Flames" startPrice="36" currentPrice="36" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.778" />
+                    <Odds id="9977214392239081" bet="Carolina Hurricanes" startPrice="46" currentPrice="76" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.316" />
+                    <Odds id="13643160092239081" bet="Chicago Blackhawks" startPrice="12" currentPrice="10.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="9.524" />
+                    <Odds id="21191847802239081" bet="Colorado Avalanche" startPrice="41" currentPrice="6001" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="0.017" />
+                    <Odds id="5268145052239081" bet="Columbus Blue Jackets" startPrice="67" currentPrice="8" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="12.5" />
+                    <Odds id="15714598882239081" bet="Dallas Stars" startPrice="10.5" currentPrice="34" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.941" />
+                    <Odds id="636129762239081" bet="Detroit Red Wings" startPrice="29" currentPrice="126" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.794" />
+                    <Odds id="12676319862239081" bet="Edmonton Oilers" startPrice="41" currentPrice="21" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="4.762" />
+                    <Odds id="15216844522239081" bet="Florida Panthers" startPrice="16" currentPrice="46" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.174" />
+                    <Odds id="15130755032239081" bet="Los Angeles Kings" startPrice="19" currentPrice="29" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="3.448" />
+                    <Odds id="21188434142239081" bet="Minnesota Wild" startPrice="21" currentPrice="7" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="14.286" />
+                    <Odds id="15245559822239081" bet="Montreal Canadiens" startPrice="23" currentPrice="8.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="11.765" />
+                    <Odds id="2209372822239081" bet="Nashville Predators" startPrice="15" currentPrice="26" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.846" />
+                    <Odds id="15418332072239081" bet="New Jersey Devils" startPrice="34" currentPrice="201" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.498" />
+                    <Odds id="16358310362239081" bet="New York Islanders" startPrice="26" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="63722032239081" bet="New York Rangers" startPrice="26" currentPrice="15" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="6.667" />
+                    <Odds id="12439385392239081" bet="Ottawa Senators" startPrice="67" currentPrice="26" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.846" />
+                    <Odds id="12746472182239081" bet="Philadelphia Flyers" startPrice="29" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="12700659412239081" bet="Pittsburgh Penguins" startPrice="9" currentPrice="8.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="11.765" />
+                    <Odds id="11652901012239081" bet="San Jose Sharks" startPrice="12" currentPrice="18" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="5.556" />
+                    <Odds id="10252937382239081" bet="St. Louis Blues" startPrice="11" currentPrice="31" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.226" />
+                    <Odds id="4457921212239081" bet="Tampa Bay Lightning" startPrice="9.5" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="19139775692239081" bet="Toronto Maple Leafs" startPrice="61" currentPrice="31" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.226" />
+                    <Odds id="3574962732239081" bet="Vancouver Canucks" startPrice="67" currentPrice="41" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.439" />
+                    <Odds id="20297923752239081" bet="Washington Capitals" startPrice="9" currentPrice="7" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="14.286" />
+                    <Odds id="8791917732239081" bet="Winnipeg Jets" startPrice="41" currentPrice="36" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.778" />
+                </Bookmaker>
+                <Bookmaker id="8" name="Bet3652" lastUpdate="2017-02-02T13:24:59.357" isResulting="false">
+                    <Odds id="15196785512239081" bet="Anaheim Ducks" startPrice="17" currentPrice="21" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="4.762" />
+                    <Odds id="1582397982239081" bet="Arizona Coyotes" startPrice="41" currentPrice="2501" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.04" />
+                    <Odds id="5557060662239081" bet="Boston Bruins" startPrice="26" currentPrice="41" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.439" />
+                    <Odds id="16776139852239081" bet="Buffalo Sabres" startPrice="41" currentPrice="76" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.316" />
+                    <Odds id="20087219612239081" bet="Calgary Flames" startPrice="36" currentPrice="36" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.778" />
+                    <Odds id="9977214392239081" bet="Carolina Hurricanes" startPrice="46" currentPrice="76" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.316" />
+                    <Odds id="13643160092239081" bet="Chicago Blackhawks" startPrice="12" currentPrice="10.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="9.524" />
+                    <Odds id="21191847802239081" bet="Colorado Avalanche" startPrice="41" currentPrice="6001" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="0.017" />
+                    <Odds id="5268145052239081" bet="Columbus Blue Jackets" startPrice="67" currentPrice="8" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="12.5" />
+                    <Odds id="15714598882239081" bet="Dallas Stars" startPrice="10.5" currentPrice="34" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.941" />
+                    <Odds id="636129762239081" bet="Detroit Red Wings" startPrice="29" currentPrice="126" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.794" />
+                    <Odds id="12676319862239081" bet="Edmonton Oilers" startPrice="41" currentPrice="21" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="4.762" />
+                    <Odds id="15216844522239081" bet="Florida Panthers" startPrice="16" currentPrice="46" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.174" />
+                    <Odds id="15130755032239081" bet="Los Angeles Kings" startPrice="19" currentPrice="29" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="3.448" />
+                    <Odds id="21188434142239081" bet="Minnesota Wild" startPrice="21" currentPrice="7" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="14.286" />
+                    <Odds id="15245559822239081" bet="Montreal Canadiens" startPrice="23" currentPrice="8.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="11.765" />
+                    <Odds id="2209372822239081" bet="Nashville Predators" startPrice="15" currentPrice="26" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.846" />
+                    <Odds id="15418332072239081" bet="New Jersey Devils" startPrice="34" currentPrice="201" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.498" />
+                    <Odds id="16358310362239081" bet="New York Islanders" startPrice="26" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="63722032239081" bet="New York Rangers" startPrice="26" currentPrice="15" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="6.667" />
+                    <Odds id="12439385392239081" bet="Ottawa Senators" startPrice="67" currentPrice="26" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.846" />
+                    <Odds id="12746472182239081" bet="Philadelphia Flyers" startPrice="29" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="12700659412239081" bet="Pittsburgh Penguins" startPrice="9" currentPrice="8.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="11.765" />
+                    <Odds id="11652901012239081" bet="San Jose Sharks" startPrice="12" currentPrice="18" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="5.556" />
+                    <Odds id="10252937382239081" bet="St. Louis Blues" startPrice="11" currentPrice="31" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.226" />
+                    <Odds id="4457921212239081" bet="Tampa Bay Lightning" startPrice="9.5" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="19139775692239081" bet="Toronto Maple Leafs" startPrice="61" currentPrice="31" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.226" />
+                    <Odds id="3574962732239081" bet="Vancouver Canucks" startPrice="67" currentPrice="41" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.439" />
+                    <Odds id="20297923752239081" bet="Washington Capitals" startPrice="9" currentPrice="7" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="14.286" />
+                    <Odds id="8791917732239081" bet="Winnipeg Jets" startPrice="41" currentPrice="36" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.778" />
+                </Bookmaker>
+            </Outcome>
+            <Outcome id="2743" name="Outright Winner2">
+                <Bookmaker id="8" name="Bet365" lastUpdate="2017-02-02T13:24:59.357" isResulting="false">
+                    <Odds id="15196785512239081" bet="Anaheim Ducks" startPrice="17" currentPrice="21" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="4.762" />
+                    <Odds id="1582397982239081" bet="Arizona Coyotes" startPrice="41" currentPrice="2501" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.04" />
+                    <Odds id="5557060662239081" bet="Boston Bruins" startPrice="26" currentPrice="41" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.439" />
+                    <Odds id="16776139852239081" bet="Buffalo Sabres" startPrice="41" currentPrice="76" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.316" />
+                    <Odds id="20087219612239081" bet="Calgary Flames" startPrice="36" currentPrice="36" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.778" />
+                    <Odds id="9977214392239081" bet="Carolina Hurricanes" startPrice="46" currentPrice="76" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.316" />
+                    <Odds id="13643160092239081" bet="Chicago Blackhawks" startPrice="12" currentPrice="10.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="9.524" />
+                    <Odds id="21191847802239081" bet="Colorado Avalanche" startPrice="41" currentPrice="6001" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="0.017" />
+                    <Odds id="5268145052239081" bet="Columbus Blue Jackets" startPrice="67" currentPrice="8" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="12.5" />
+                    <Odds id="15714598882239081" bet="Dallas Stars" startPrice="10.5" currentPrice="34" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.941" />
+                    <Odds id="636129762239081" bet="Detroit Red Wings" startPrice="29" currentPrice="126" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.794" />
+                    <Odds id="12676319862239081" bet="Edmonton Oilers" startPrice="41" currentPrice="21" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="4.762" />
+                    <Odds id="15216844522239081" bet="Florida Panthers" startPrice="16" currentPrice="46" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.174" />
+                    <Odds id="15130755032239081" bet="Los Angeles Kings" startPrice="19" currentPrice="29" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="3.448" />
+                    <Odds id="21188434142239081" bet="Minnesota Wild" startPrice="21" currentPrice="7" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="14.286" />
+                    <Odds id="15245559822239081" bet="Montreal Canadiens" startPrice="23" currentPrice="8.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="11.765" />
+                    <Odds id="2209372822239081" bet="Nashville Predators" startPrice="15" currentPrice="26" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.846" />
+                    <Odds id="15418332072239081" bet="New Jersey Devils" startPrice="34" currentPrice="201" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="0.498" />
+                    <Odds id="16358310362239081" bet="New York Islanders" startPrice="26" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="63722032239081" bet="New York Rangers" startPrice="26" currentPrice="15" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="6.667" />
+                    <Odds id="12439385392239081" bet="Ottawa Senators" startPrice="67" currentPrice="26" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.846" />
+                    <Odds id="12746472182239081" bet="Philadelphia Flyers" startPrice="29" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="12700659412239081" bet="Pittsburgh Penguins" startPrice="9" currentPrice="8.5" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="11.765" />
+                    <Odds id="11652901012239081" bet="San Jose Sharks" startPrice="12" currentPrice="18" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="5.556" />
+                    <Odds id="10252937382239081" bet="St. Louis Blues" startPrice="11" currentPrice="31" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.226" />
+                    <Odds id="4457921212239081" bet="Tampa Bay Lightning" startPrice="9.5" currentPrice="51" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="1.961" />
+                    <Odds id="19139775692239081" bet="Toronto Maple Leafs" startPrice="61" currentPrice="31" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="3.226" />
+                    <Odds id="3574962732239081" bet="Vancouver Canucks" startPrice="67" currentPrice="41" line="" BaseLine="" LastUpdate="2017-02-02T13:24:59.357" Status="Open" currentPriceProbability="2.439" />
+                    <Odds id="20297923752239081" bet="Washington Capitals" startPrice="9" currentPrice="7" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="14.286" />
+                    <Odds id="8791917732239081" bet="Winnipeg Jets" startPrice="41" currentPrice="36" line="" BaseLine="" LastUpdate="2017-02-02T03:24:10.763" Status="Open" currentPriceProbability="2.778" />
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

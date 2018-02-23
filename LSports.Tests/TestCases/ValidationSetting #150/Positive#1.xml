@@ -1,0 +1,50 @@
+<xml>
+    <Event MsgGuid="dbf65553-0143-47bb-a8aa-280e407eb03a" MsgID="1789" Type="odds">
+        <EventID>2242354</EventID>
+        <StartDate>2017-02-20T12:00:00.000</StartDate>
+        <SportID Name="Football">6046</SportID>
+        <LeagueID Name="Juniorska liga">50000188</LeagueID>
+        <LocationID Name="Czech Republic">202</LocationID>
+        <Status>Finished</Status>
+        <LastUpdate>2017-02-20T13:15:51.669</LastUpdate>
+        <HomeTeam ID="341486" Name="Fk Pribram U21" />
+        <AwayTeam ID="341483" Name="Fc Viktoria Plzen U21" />
+        <Scores status="2nd Half" time="90+">
+            <Score period="HT" homeScore="1" awayScore="2" totalScore="3" />
+            <Score period="2H" homeScore="0" awayScore="0" totalScore="0" />
+            <Score period="CFS" homeScore="1" awayScore="2" totalScore="3" />
+        </Scores>
+        <Stat>
+            <Attacks>253:148</Attacks>
+            <Corners>9:2</Corners>
+            <DengerousAttacks>137:45</DengerousAttacks>
+            <Penalties>0:0</Penalties>
+            <RedCards>0:0</RedCards>
+            <ShotsOffTarget>10:7</ShotsOffTarget>
+            <ShotsOnTarget>8:6</ShotsOnTarget>
+            <Substitutions>2:4</Substitutions>
+            <YellowCards>1:0</YellowCards>
+        </Stat>
+        <Scorers />
+        <Cards>
+            <Cards teamName="Fk Pribram U21" time="71" type="YellowCard" /></Cards>
+        <Outcomes>
+            <Outcome id="2" name="Under/Over">
+                <Bookmaker id="148" name="CashPoint" lastUpdate="2017-02-20T13:52:48.683" bookieEventID="579981" isResulting="false">
+                    <Odds id="16753824561398603" bet="Over" startPrice="1.0" currentPrice="10.0" line="5.5" LastUpdate="2017-02-20T13:48:55.581" bookieOutcomeID="" Status="Suspended" currentPriceProbability="10" />
+                    <Odds id="10068130301398603" bet="Under" startPrice="1.0" currentPrice="1.1" line="5.5" LastUpdate="2017-02-20T13:33:19.472" bookieOutcomeID="" Status="Suspended" currentPriceProbability="90.909" />
+                    <Odds id="16753824271398603" bet="Over" startPrice="1.0" currentPrice="5.25" line="6.5" LastUpdate="2017-02-20T13:21:19.440" bookieOutcomeID="" Status="Suspended" currentPriceProbability="19.048" />
+                    <Odds id="8656505291398603" bet="Under" startPrice="1.0" currentPrice="1.12" line="6.5" LastUpdate="2017-02-20T13:21:19.440" bookieOutcomeID="" Status="Suspended" currentPriceProbability="89.286" />
+                    <Odds id="11479755311398603" bet="Under" startPrice="1.0" currentPrice="1.1" line="4.5" LastUpdate="2017-02-20T13:41:19.550" bookieOutcomeID="" Status="Suspended" currentPriceProbability="90.909" />
+                    <Odds id="16753823611398603" bet="Over" startPrice="1.0" currentPrice="10.0" line="4.5" LastUpdate="2017-02-20T13:50:08.941" bookieOutcomeID="" Status="Suspended" currentPriceProbability="10" />
+                    <Odds id="16453683921398603" bet="Under" startPrice="1.0" currentPrice="1.12" line="3.5" LastUpdate="2017-02-20T13:49:05.253" bookieOutcomeID="" Status="Suspended" currentPriceProbability="89.286" />
+                    <Odds id="16753826461398603" bet="Over" startPrice="1.0" currentPrice="6.5" line="3.5" LastUpdate="2017-02-20T13:50:08.941" bookieOutcomeID="" Status="Suspended" currentPriceProbability="15.385" />
+                    <Odds id="16753825221398603" bet="Over" startPrice="1.0" currentPrice="4.2" line="7.5" LastUpdate="2017-02-20T12:43:46.236" bookieOutcomeID="" Status="Suspended" currentPriceProbability="23.81" />
+                    <Odds id="17865308931398603" bet="Under" startPrice="1.0" currentPrice="3.45" line="2.5" LastUpdate="2017-02-20T12:08:02.016" bookieOutcomeID="" Status="Suspended" currentPriceProbability="28.986" />
+                    <Odds id="7244880281398603" bet="Under" startPrice="1.0" currentPrice="1.18" line="7.5" LastUpdate="2017-02-20T12:43:46.236" bookieOutcomeID="" Status="Suspended" currentPriceProbability="84.746" />
+                    <Odds id="16753825511398603" bet="Over" startPrice="1.0" currentPrice="1.25" line="2.5" LastUpdate="2017-02-20T12:08:02.016" bookieOutcomeID="" Status="Suspended" currentPriceProbability="80" />
+                </Bookmaker>
+            </Outcome>
+        </Outcomes>
+    </Event>
+</xml>

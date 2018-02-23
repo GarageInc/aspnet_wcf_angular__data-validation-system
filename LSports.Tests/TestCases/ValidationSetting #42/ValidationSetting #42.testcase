@@ -1,0 +1,18 @@
+Rule #42
+
+	1) Negative condition #1
+	Result: false
+	
+	2) Negative condition #2
+	Result: false
+	
+	3) Negative condition #3
+	Result: false
+	
+	4) Positive condition #1
+	Result: Odds id="4382102812242903" 
+            Odds id="15500655032242903"
+	
+	5) Positive condition #2
+	Result: Odds id="4382102812242903"
+            Odds id="155006550322429031"

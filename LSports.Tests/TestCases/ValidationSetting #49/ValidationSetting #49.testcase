@@ -1,0 +1,15 @@
+Rule #42
+
+	1) Negative condition #1
+	Result: false
+	
+	2) Negative condition #2
+	Result: false
+	
+	3) Negative condition #3
+	Result: false
+	
+	3) Positive condition #1
+	Result: 
+		<Odds id="4382102812242903" bet="1" startPrice="1.83" currentPrice="1.83" line="-0.5 (0-0)" BaseLine="-0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open" isWinner="1"/>
+		<Odds id="4382102812242904" bet="1" startPrice="1.83" currentPrice="1.83" line="-0.5 (0-0)" BaseLine="-0.5" LastUpdate="2016-11-09T03:00:31.028" Status="Open" isWinner="1"/>

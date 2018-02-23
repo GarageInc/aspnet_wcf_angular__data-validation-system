@@ -1,0 +1,17 @@
+<xml>
+	<Event>
+		<EventID>62332026</EventID>
+		<StartDate>2017-01-18T18:07:00.000</StartDate>
+		<SportID Name="Horse Racing">687888</SportID>
+		<LeagueID Name="Dover Downs">50001765</LeagueID>
+		<LocationID Name="United States">4</LocationID>
+		<Status>Finished</Status>
+		<LastUpdate>2017-01-19T12:32:51.016</LastUpdate>
+		<HomeTeam ID="50004698" Name="Dover Downs" />
+		<AwayTeam ID="50000002" Name="Null" />
+		<Scores />
+		<Stat />
+		<Scorers />
+		<Cards />
+	</Event>
+</xml>

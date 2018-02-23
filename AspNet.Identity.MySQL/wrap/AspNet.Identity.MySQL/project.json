@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../AspNet.Identity.MySQL.csproj",
+      "bin": {
+        "assembly": "../../obj/{configuration}/AspNet.Identity.MySQL.dll",
+        "pdb": "../../obj/{configuration}/AspNet.Identity.MySQL.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.0.0",
+        "Microsoft.AspNet.Identity.Core": "2.0.1",
+        "MySql.Data": "6.9.9",
+        "MySql.Data.Entity": "6.9.9",
+        "EntityFramework.SqlServer": "1.0.0-*",
+        "MySql.Data.Entity.EF6": "1.0.0-*"
+      }
+    }
+  }
+}

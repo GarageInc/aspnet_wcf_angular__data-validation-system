@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "bin": {
+        "assembly": "../../../packages/EntityFramework.6.0.0/lib/net45/EntityFramework.SqlServer.dll"
+      },
+      "dependencies": {
+        "EntityFramework": "1.0.0-*"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<xml><Event>
+      <EventID>2242903</EventID>
+      <StartDate>2016-11-19T15:00:00.000</StartDate>
+      <SportID Name="Football">6046</SportID>
+      <LeagueID Name="Premiership League">2242805</LeagueID>
+      <LocationID Name="Scotland">240</LocationID>
+      <Status>Finished</Status>
+      <LastUpdate>2016-11-09T11:30:05.170</LastUpdate>
+      <HomeTeam ID="867" Name="12345"/>
+      <AwayTeam ID="80514" Name="Ross CountyWW"/>
+      <Scores status="2nd Half" time="75">
+        <Score period="CFS" homeScore="2" awayScore="1" />
+        <Score period="HT" homeScore="2" awayScore="1" />
+	  </Scores>
+      <Stat/>
+      <Scorers/>
+      <Cards/>
+      <Outcomes>
+        <Outcome id="101" name="Under/Over - Home Team">
+            <Bookmaker id="8" name="Bet365" lastUpdate="2016-11-18T12:28:34.476" bookieEventID="59929989" bookieLeagueID="0" BookieOfferTypeID="0" isResulting="false">
+                
+            </Bookmaker>
+        </Outcome>
+      </Outcomes>
+    </Event></xml>

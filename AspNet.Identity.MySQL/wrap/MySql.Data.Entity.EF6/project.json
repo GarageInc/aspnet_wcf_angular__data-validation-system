@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "bin": {
+        "assembly": "../../../packages/MySql.Data.Entity.6.9.9/lib/net45/MySql.Data.Entity.EF6.dll"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Rule #29
+
+	1) Negative condition #1
+	Result: false
+	
+	2) Positive condition #1
+	Result: <HomeTeam ID="867" Name="St. Johnstone W W"/>
+	
+	3) Positive condition #2
+	Result: <HomeTeam ID="867" Name="St. Johnstone W W"/>
+			<AwayTeam ID="80514" Name="Ross County W W"/>

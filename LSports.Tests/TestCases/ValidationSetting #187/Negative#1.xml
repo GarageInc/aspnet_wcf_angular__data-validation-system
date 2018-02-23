@@ -1,0 +1,111 @@
+<xml>
+  <Header>
+    <Status>000</Status>
+    <Description>OK</Description>
+    <Timestamp>1486476080</Timestamp>
+    <clientsTimestamp>1486389670</clientsTimestamp>
+  </Header>
+  <Event>
+    <EventID>62365515</EventID>
+    <StartDate>2017-02-07T13:00:00.000</StartDate>
+    <SportID Name="Tennis">54094</SportID>
+    <LeagueID Name="ITF Men Great Britain F2, Singles">50012441</LeagueID>
+    <LocationID Name="Italy">215</LocationID>
+    <Status>NSY</Status>
+    <LastUpdate>2017-02-07T14:01:00.835</LastUpdate>
+    <HomeTeam ID="325924" Name="P. Licciardi" />
+    <AwayTeam ID="346920" Name="C. Geens" />
+    <Scores />
+    <Stat />
+    <Scorers />
+    <Cards />
+    <Outcomes>
+      <Outcome id="52" name="12">
+        <Bookmaker id="3" name="Bet-At-Home" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="208669922262365515" bet="1" startPrice="3.23" currentPrice="3.23" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="30.96" />
+          <Odds id="208669922562365515" bet="2" startPrice="1.26" currentPrice="1.26" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="79.365" />
+        </Bookmaker>
+        <Bookmaker id="6" name="Interwetten" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="206579710362365515" bet="1" startPrice="2.65" currentPrice="3.2" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="31.25" />
+          <Odds id="206579710662365515" bet="2" startPrice="1.35" currentPrice="1.25" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="80" />
+        </Bookmaker>
+        <Bookmaker id="8" name="Bet365" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="37955321962365515" bet="1" startPrice="3.4" currentPrice="3.5" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="28.571" />
+          <Odds id="37955321662365515" bet="2" startPrice="1.3" currentPrice="1.2857" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="77.779" />
+        </Bookmaker>
+        <Bookmaker id="10" name="PartyBets" lastUpdate="2017-02-07T12:33:23.156" isResulting="false">
+          <Odds id="208237536662365515" bet="1" startPrice="3.4" currentPrice="3.4" line="" BaseLine="" LastUpdate="2017-02-07T12:33:23.156" Status="Suspended" currentPriceProbability="29.412" />
+          <Odds id="167909083962365515" bet="2" startPrice="1.28" currentPrice="1.28" line="" BaseLine="" LastUpdate="2017-02-07T12:33:23.156" Status="Suspended" currentPriceProbability="78.125" />
+        </Bookmaker>
+        <Bookmaker id="13" name="BWin" lastUpdate="2017-02-07T12:33:23.156" isResulting="false">
+          <Odds id="208255498362365515" bet="1" startPrice="3.4" currentPrice="3.4" line="" BaseLine="" LastUpdate="2017-02-07T12:33:23.156" Status="Suspended" currentPriceProbability="29.412" />
+          <Odds id="167927045662365515" bet="2" startPrice="1.28" currentPrice="1.28" line="" BaseLine="" LastUpdate="2017-02-07T12:33:23.156" Status="Suspended" currentPriceProbability="78.125" />
+        </Bookmaker>
+        <Bookmaker id="31" name="William Hill" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="26788502962365515" bet="1" startPrice="2.75" currentPrice="2.75" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="36.364" />
+          <Odds id="129819891262365515" bet="2" startPrice="1.4" currentPrice="1.4" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="71.429" />
+        </Bookmaker>
+        <Bookmaker id="40" name="10Bet" lastUpdate="2017-02-07T13:18:53.736" isResulting="false">
+          <Odds id="82640490762365515" bet="1" startPrice="2.7" currentPrice="3.4" line="" BaseLine="" LastUpdate="2017-02-07T13:18:53.736" Status="Suspended" currentPriceProbability="29.412" />
+          <Odds id="190247844862365515" bet="2" startPrice="1.39" currentPrice="1.26" line="" BaseLine="" LastUpdate="2017-02-07T13:18:53.736" Status="Suspended" currentPriceProbability="79.365" />
+        </Bookmaker>
+        <Bookmaker id="48" name="Interapostas" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="82611792362365515" bet="1" startPrice="2.65" currentPrice="3.2" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="31.25" />
+          <Odds id="190276543262365515" bet="2" startPrice="1.35" currentPrice="1.25" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="80" />
+        </Bookmaker>
+        <Bookmaker id="65" name="Comeon" lastUpdate="2017-02-07T13:18:53.736" isResulting="false">
+          <Odds id="171670075462365515" bet="1" startPrice="2.7" currentPrice="3.4" line="" BaseLine="" LastUpdate="2017-02-07T13:18:53.736" Status="Suspended" currentPriceProbability="29.412" />
+          <Odds id="131341622762365515" bet="2" startPrice="1.39" currentPrice="1.26" line="" BaseLine="" LastUpdate="2017-02-07T13:18:53.736" Status="Suspended" currentPriceProbability="79.365" />
+        </Bookmaker>
+        <Bookmaker id="71" name="PaddyPower" lastUpdate="2017-02-07T13:10:21.429" isResulting="false">
+          <Odds id="191574583962365515" bet="1" startPrice="2.75" currentPrice="3.2" line="" BaseLine="" LastUpdate="2017-02-07T13:10:21.429" Status="Suspended" currentPriceProbability="31.25" />
+          <Odds id="81313751662365515" bet="2" startPrice="1.4" currentPrice="1.3" line="" BaseLine="" LastUpdate="2017-02-07T13:10:21.429" Status="Suspended" currentPriceProbability="76.923" />
+        </Bookmaker>
+        <Bookmaker id="78" name="CoralBet" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="191592508062365515" bet="1" startPrice="3.5" currentPrice="3.5" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="28.571" />
+          <Odds id="81295827562365515" bet="2" startPrice="1.29" currentPrice="1.29" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="77.519" />
+        </Bookmaker>
+        <Bookmaker id="86" name="Bodog" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="135716254362365515" bet="1" startPrice="3.25" currentPrice="3.25" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="30.769" />
+          <Odds id="20892139862365515" bet="2" startPrice="1.266667" currentPrice="1.266667" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="78.947" />
+        </Bookmaker>
+        <Bookmaker id="95" name="SportsBetAu" lastUpdate="2017-02-07T13:10:21.429" isResulting="false">
+          <Odds id="214032503962365515" bet="1" startPrice="2.82" currentPrice="3.31" line="" BaseLine="" LastUpdate="2017-02-07T13:10:21.429" Status="Suspended" currentPriceProbability="30.211" />
+          <Odds id="175135773062365515" bet="2" startPrice="1.4" currentPrice="1.3" line="" BaseLine="" LastUpdate="2017-02-07T13:10:21.429" Status="Suspended" currentPriceProbability="76.923" />
+        </Bookmaker>
+        <Bookmaker id="101" name="SportingBet AU" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="148355530162365515" bet="1" startPrice="2.75" currentPrice="2.75" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="36.364" />
+          <Odds id="148355530462365515" bet="2" startPrice="1.4" currentPrice="1.4" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="71.429" />
+        </Bookmaker>
+        <Bookmaker id="134" name="138" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="29101418562365515" bet="1" startPrice="2.7" currentPrice="3.4" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="29.412" />
+          <Odds id="29101418862365515" bet="2" startPrice="1.39" currentPrice="1.26" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="79.365" />
+        </Bookmaker>
+        <Bookmaker id="145" name="1XBet" lastUpdate="2017-02-07T13:07:10.268" isResulting="false">
+          <Odds id="211344653162365515" bet="1" startPrice="2.73" currentPrice="3.48" line="" BaseLine="" LastUpdate="2017-02-07T13:07:10.268" Status="Suspended" currentPriceProbability="28.736" />
+          <Odds id="211344652862365515" bet="2" startPrice="1.41" currentPrice="1.232" line="" BaseLine="" LastUpdate="2017-02-07T13:07:10.268" Status="Suspended" currentPriceProbability="81.169" />
+        </Bookmaker>
+        <Bookmaker id="151" name="SportingBetEu" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="148331457062365515" bet="1" startPrice="2.75" currentPrice="3.3" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="30.303" />
+          <Odds id="148331457162365515" bet="2" startPrice="1.363" currentPrice="1.266" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="78.989" />
+        </Bookmaker>
+      </Outcome>
+      <Outcome id="202" name="1st Period Winner Home/Away">
+        <Bookmaker id="8" name="Bet365" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="70479312462365515" bet="1" startPrice="3.25" currentPrice="3.25" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="30.769" />
+          <Odds id="30150859762365515" bet="2" startPrice="1.3333" currentPrice="1.3333" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="75.002" />
+        </Bookmaker>
+        <Bookmaker id="78" name="CoralBet" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="89638484762365515" bet="1" startPrice="3" currentPrice="3" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="33.333" />
+          <Odds id="89638484662365515" bet="2" startPrice="1.36" currentPrice="1.36" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="73.529" />
+        </Bookmaker>
+      </Outcome>
+      <Outcome id="203" name="2nd Period Winner Home/Away">
+        <Bookmaker id="78" name="CoralBet" lastUpdate="2017-02-07T14:01:00.069" isResulting="false">
+          <Odds id="89638475262365515" bet="1" startPrice="3" currentPrice="3" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="33.333" />
+          <Odds id="89638474962365515" bet="2" startPrice="1.36" currentPrice="1.36" line="" BaseLine="" LastUpdate="2017-02-07T14:01:00.069" Status="Suspended" currentPriceProbability="73.529" />
+        </Bookmaker>
+      </Outcome>
+    </Outcomes>
+  </Event>
+</xml>
